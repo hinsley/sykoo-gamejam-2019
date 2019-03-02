@@ -1,3 +1,5 @@
+# Sprites
+
 - Explosions
 - Enemies
 - Stars (?)
