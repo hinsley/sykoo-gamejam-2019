@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
+    public GameObject bulletPrefab;
     public Transform leftBoundary;
     public Transform rightBoundary;
 
@@ -18,6 +19,16 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         UpdateLocation();
+
+        GenerateBullet();
+    }
+
+    void GenerateBullet()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(bulletPrefab, transform.position, transform.rotation);
+        }
     }
 
     void UpdateLocation()
