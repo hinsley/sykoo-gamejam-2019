@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Sequencing.unity
+    guid: 788fab24914e24e6da73e5280b831055
+  - enabled: 1
+    path: Assets/Scenes/Core GameObjects.unity
+    guid: cae36f9c9cf5d401e9eaae418432ead2
+  - enabled: 1
+    path: Assets/Scenes/Enemy Testing.unity
+    guid: 1e5c2b8f0e0c54bf2a63bdc827d4300e
   m_configObjects: {}
