@@ -18,17 +18,9 @@ public class BulletController : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.up * travelSpeed * Time.deltaTime);
-
-        if (gameObject.GetComponent<BoxCollider2D>().IsTouching(
-                bulletTerminator.GetComponent<BoxCollider2D>()
-        ))
-        {
-            Destroy(gameObject);
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("Foo");
         if (other.tag == "BulletTerminator")
         {
             GameObject.Destroy(gameObject);
