@@ -4,5 +4,5 @@
 - [X] Bullet / blaster round firing
 - [ ] Death for player
 - [ ] Game over sound
-- [ ] Enemy attack sound
-- [ ] Tractor beam noise
+- [ ] Enemy attack sound (bosses only?)
+- [ ] Warp drive
