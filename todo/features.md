@@ -6,7 +6,7 @@
 - [X] Ship controls
 - [ ] Ship warp drive mechanic
 - [X] Ship firing
-- [ ] Enemy paths
+- [ ] Tweening engine for enemies
 - [ ] Levels
 - [ ] ***Sounds***
 - [ ] Auto-fire
