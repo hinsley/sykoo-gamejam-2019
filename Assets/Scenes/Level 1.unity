@@ -435,27 +435,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
+  bulletPrefab: {fileID: 4343838112044863813, guid: ca9bb2dde1c8c43a29b9edd67077c51e,
+    type: 3}
   leftBoundary: {fileID: 830321137}
   rightBoundary: {fileID: 642450540}
---- !u!1 &4343838112044863813 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4343838112044863813, guid: ca9bb2dde1c8c43a29b9edd67077c51e,
-    type: 3}
-  m_PrefabInstance: {fileID: 6987732349576092128}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4343838112044863814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4343838112044863813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbb4ed54e5ec54ca68310a5a613b460e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  travelSpeed: 10
 --- !u!4 &6262386648525704353 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6262386648525704353, guid: ca9bb2dde1c8c43a29b9edd67077c51e,
@@ -529,6 +512,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6691952192087731906, guid: 827d6af8488734837a410087c2ebe5e4,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691952192087731906, guid: 827d6af8488734837a410087c2ebe5e4,
+        type: 3}
+      propertyPath: ShapeModule.m_Scale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691952192087731906, guid: 827d6af8488734837a410087c2ebe5e4,
+        type: 3}
+      propertyPath: ShapeModule.m_Position.z
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691952192087731906, guid: 827d6af8488734837a410087c2ebe5e4,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691952191300752415, guid: 827d6af8488734837a410087c2ebe5e4,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691952191300752415, guid: 827d6af8488734837a410087c2ebe5e4,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691952191300752415, guid: 827d6af8488734837a410087c2ebe5e4,
+        type: 3}
+      propertyPath: ShapeModule.m_Position.z
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691952191300752415, guid: 827d6af8488734837a410087c2ebe5e4,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 827d6af8488734837a410087c2ebe5e4, type: 3}
 --- !u!1001 &6987732349576092128
@@ -542,6 +565,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player Projectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343838112044863813, guid: ca9bb2dde1c8c43a29b9edd67077c51e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6262386648525704353, guid: ca9bb2dde1c8c43a29b9edd67077c51e,
         type: 3}
@@ -596,21 +624,6 @@ PrefabInstance:
     - target: {fileID: 6262386648525704353, guid: ca9bb2dde1c8c43a29b9edd67077c51e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6262386648525704353, guid: ca9bb2dde1c8c43a29b9edd67077c51e,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6262386648525704353, guid: ca9bb2dde1c8c43a29b9edd67077c51e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4343838112044863814, guid: ca9bb2dde1c8c43a29b9edd67077c51e,
-        type: 3}
-      propertyPath: m_Offset.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
