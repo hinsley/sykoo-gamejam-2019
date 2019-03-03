@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public GameObject bulletPrefab;
+    public Transform bulletSpawnPoint;
     public Transform leftBoundary;
     public Transform rightBoundary;
 
@@ -27,7 +28,9 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Instantiate(bulletPrefab, transform.position, transform.rotation);
+            Instantiate(bulletPrefab,
+                        bulletSpawnPoint.position,
+                        transform.rotation);
         }
     }
 
