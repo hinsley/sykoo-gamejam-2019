@@ -5,12 +5,14 @@ using UnityEngine;
 public class BulletController : MonoBehaviour
 {
     public float travelSpeed;
+    public AudioClip soundEffect;
     
     GameObject bulletTerminator;
 
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.GetComponent<AudioSource>().Play();
         bulletTerminator = GameObject.Find("Bullet Terminator");
     }
 
