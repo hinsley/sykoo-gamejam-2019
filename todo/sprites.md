@@ -2,8 +2,8 @@
 
 - [X] Explosions
 - [ ] Enemies
-  - [X] 1
-  - [X] 2
+  - [X] Fly
+  - [X] Gnat
 - [ ] Stars (?)
 - [ ] Wave/level icons
 - [X] Bullets / blaster round
