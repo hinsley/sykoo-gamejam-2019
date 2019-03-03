@@ -23,6 +23,6 @@ public class EnemyController : MonoBehaviour
     {
         Instantiate(bulletPrefab,
                     bulletSpawnPoint.position,
-                    transform.rotation);
+                    bulletSpawnPoint.rotation);
     }
 }
