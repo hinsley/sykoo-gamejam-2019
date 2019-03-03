@@ -1,7 +1,7 @@
 # Sounds
 
 - [ ] Deaths for each enemy type
-- [ ] Bullet / blaster round firing
+- [X] Bullet / blaster round firing
 - [ ] Death for player
 - [ ] Game over sound
 - [ ] Enemy attack sound
