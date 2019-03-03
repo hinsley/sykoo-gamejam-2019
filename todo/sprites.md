@@ -1,8 +1,8 @@
 # Sprites
 
-- Explosions
-- Enemies
-- Stars (?)
-- Wave/level icons
-- Bullets / blaster round
-- Player spacecraft
+- [ ] Explosions
+- [ ] Enemies
+- [ ] Stars (?)
+- [ ] Wave/level icons
+- [X] Bullets / blaster round
+- [X] Player spacecraft
