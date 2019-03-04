@@ -267,6 +267,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9188730141862119656, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+        type: 3}
+      propertyPath: homecomingCheckpoint.flySpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188730141862119656, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 4032126589912811665, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: player
@@ -1511,6 +1521,11 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 1094004136}
+    - target: {fileID: 4733386965095219300, guid: a803a69996bc045969603241ccb6e562,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 487741899, guid: a803a69996bc045969603241ccb6e562, type: 3}
       propertyPath: checkpoints.Array.size
       value: 5
