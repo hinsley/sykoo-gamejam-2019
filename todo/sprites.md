@@ -6,8 +6,21 @@
   - [X] Gnat
   - [X] Wasp, Brown
   - [X] Wasp. Red
-  - [X] Wasp, Yellow Jacket
-- [X] Stars (?) (Submitted Prototype for Testing, Need additional once previewed.)
-- [X] Wave/level icons (Submitted Prototype for Testing, Need additional once previewed.)
+  - [ ] Wasp, Yellow Jacket
+  - [ ] Stink Bug
+  - [ ] Mosquito
+- [ ] Stars (?) (Submitted Prototype for Testing, Need additional once previewed.)
+  - [X] Sample-1
+  - [ ] Sample-2
+  - [ ] Sample-3
+- [ ] Wave/level icons (Submitted Prototype for Testing, Need additional once previewed.)
+  - [X] One
+  - [X] Five
+  - [ ] Ten
+  - [ ] Twenty
+  - [ ] Thirty
+  - [ ] Fifty
 - [X] Bullets / blaster round
+  - [X] Player
+  - [X] Enemy
 - [X] Player spacecraft
