@@ -57,6 +57,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "Enemy")
+        {
+            other.gameObject.GetComponent<EnemyController>().Die();
+            Die();
+        }
+    }
+
     void UpdateLocation()
     {
         transform.Translate(Vector3.right *
