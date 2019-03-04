@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BulletTerminator
   - PlayerProjectile
+  - EnemyProjectile
   layers:
   - Default
   - TransparentFX
