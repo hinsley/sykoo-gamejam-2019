@@ -7,7 +7,8 @@
 - [ ] Ship warp drive mechanic
 - [X] Ship firing
 - [X] Tweening engine for enemies
-- [ ] Levels
+- [X] Levels
+- [ ] Level loader
 - [ ] See *Sounds* list.
 - [X] Auto-fire
 - [X] Deaths and explosions for enemies and player
