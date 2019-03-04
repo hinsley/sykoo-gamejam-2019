@@ -4,20 +4,25 @@ using UnityEngine;
 
 public class LevelHandler : MonoBehaviour
 {
-    public GameObject levelPrefab;
+    public GameObject[] levelPrefabs;
 
     void Awake()
     {
-        Instantiate(
-            levelPrefab,
-            new Vector3(0, 5, 0),
-            new Quaternion(0, 0, 0, 1)
-        );
+        LoadLevel(0);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void LoadLevel(int levelIndex)
+    {
+        Instantiate(
+            levelPrefabs[levelIndex],
+            new Vector3(0, 5, 0),
+            new Quaternion(0, 0, 0, 1)
+        );
     }
 }
