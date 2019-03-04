@@ -36,11 +36,24 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    void Death(GameObject bullet)
+    {
+        GameObject.Destroy(bullet);
+        GameObject.Destroy(gameObject);
+    }
+
     void GenerateBullet()
     {
         Instantiate(bulletPrefab,
                     bulletSpawnPoint.position,
                     bulletSpawnPoint.rotation);
+    }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "PlayerProjectile")
+        {
+            Death(other.gameObject);
+        }
     }
 
     void ResetTimer()

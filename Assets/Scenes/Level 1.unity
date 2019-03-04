@@ -122,7 +122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 43227474}
   - component: {fileID: 43227473}
-  - component: {fileID: 43227472}
   m_Layer: 0
   m_Name: Bullet Terminator Bottom
   m_TagString: BulletTerminator
@@ -130,27 +129,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &43227472
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43227471}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &43227473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -221,17 +199,17 @@ PrefabInstance:
     - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
@@ -241,7 +219,7 @@ PrefabInstance:
     - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
@@ -258,51 +236,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4032126589912811665, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1260349826}
-    - target: {fileID: 5527031321966912506, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
-      propertyPath: checkpoints.Array.data[0].transform
-      value: 
-      objectReference: {fileID: 417375762}
-    - target: {fileID: 5527031321966912506, guid: f5eb4e5a90fc5459da52357e99c49e5a,
-        type: 3}
-      propertyPath: checkpoints.Array.data[1].transform
-      value: 
-      objectReference: {fileID: 852584218}
-    - target: {fileID: 1933515738034530090, guid: f5eb4e5a90fc5459da52357e99c49e5a,
-        type: 3}
-      propertyPath: checkpoints.Array.data[0].transform
-      value: 
-      objectReference: {fileID: 852584218}
-    - target: {fileID: 1933515738034530090, guid: f5eb4e5a90fc5459da52357e99c49e5a,
-        type: 3}
-      propertyPath: checkpoints.Array.data[1].transform
-      value: 
-      objectReference: {fileID: 417375762}
-    - target: {fileID: 180872345941817827, guid: f5eb4e5a90fc5459da52357e99c49e5a,
-        type: 3}
-      propertyPath: checkpoints.Array.data[0].transform
-      value: 
-      objectReference: {fileID: 417375762}
-    - target: {fileID: 180872345941817827, guid: f5eb4e5a90fc5459da52357e99c49e5a,
-        type: 3}
-      propertyPath: checkpoints.Array.data[1].transform
-      value: 
-      objectReference: {fileID: 2080242471}
-    - target: {fileID: 180872345941817827, guid: f5eb4e5a90fc5459da52357e99c49e5a,
-        type: 3}
-      propertyPath: checkpoints.Array.data[2].transform
-      value: 
-      objectReference: {fileID: 417375762}
-    - target: {fileID: 180872345941817827, guid: f5eb4e5a90fc5459da52357e99c49e5a,
-        type: 3}
-      propertyPath: checkpoints.Array.data[3].transform
-      value: 
-      objectReference: {fileID: 852584218}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5eb4e5a90fc5459da52357e99c49e5a, type: 3}
 --- !u!1 &177567523
@@ -345,7 +288,6 @@ GameObject:
   m_Component:
   - component: {fileID: 267146733}
   - component: {fileID: 267146732}
-  - component: {fileID: 267146731}
   m_Layer: 0
   m_Name: Bullet Terminator Left
   m_TagString: BulletTerminator
@@ -353,27 +295,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &267146731
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 267146730}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &267146732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -424,7 +345,6 @@ GameObject:
   m_Component:
   - component: {fileID: 385773674}
   - component: {fileID: 385773673}
-  - component: {fileID: 385773672}
   m_Layer: 0
   m_Name: Bullet Terminator Right
   m_TagString: BulletTerminator
@@ -432,27 +352,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &385773672
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385773671}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &385773673
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -826,7 +725,7 @@ Transform:
   - {fileID: 852584218}
   - {fileID: 2080242471}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1260349824
 GameObject:
@@ -938,7 +837,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1916166623}
   - component: {fileID: 1916166622}
-  - component: {fileID: 1916166624}
   m_Layer: 0
   m_Name: Bullet Terminator Top
   m_TagString: BulletTerminator
@@ -986,27 +884,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &1916166624
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916166621}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &2080242470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,43 +981,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965539679158, guid: a803a69996bc045969603241ccb6e562,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1260349826}
-    - target: {fileID: 487741899, guid: a803a69996bc045969603241ccb6e562, type: 3}
-      propertyPath: checkpoints.Array.data[0].transform
-      value: 
-      objectReference: {fileID: 417375762}
-    - target: {fileID: 487741899, guid: a803a69996bc045969603241ccb6e562, type: 3}
-      propertyPath: checkpoints.Array.data[1].transform
-      value: 
-      objectReference: {fileID: 852584218}
-    - target: {fileID: 235185729, guid: a803a69996bc045969603241ccb6e562, type: 3}
-      propertyPath: checkpoints.Array.data[0].transform
-      value: 
-      objectReference: {fileID: 852584218}
-    - target: {fileID: 235185729, guid: a803a69996bc045969603241ccb6e562, type: 3}
-      propertyPath: checkpoints.Array.data[1].transform
-      value: 
-      objectReference: {fileID: 417375762}
-    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
-      propertyPath: checkpoints.Array.data[0].transform
-      value: 
-      objectReference: {fileID: 417375762}
-    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
-      propertyPath: checkpoints.Array.data[1].transform
-      value: 
-      objectReference: {fileID: 2080242471}
-    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
-      propertyPath: checkpoints.Array.data[2].transform
-      value: 
-      objectReference: {fileID: 417375762}
-    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
-      propertyPath: checkpoints.Array.data[3].transform
-      value: 
-      objectReference: {fileID: 852584218}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a803a69996bc045969603241ccb6e562, type: 3}
 --- !u!1001 &6691952192401124100
