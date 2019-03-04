@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class EnemyBulletSpawnPointController : MonoBehaviour
 {
-    public Transform player;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +13,7 @@ public class EnemyBulletSpawnPointController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Transform player = GameObject.FindGameObjectWithTag("Player").transform;
         Vector3 targetPosition = new Vector3(
             player.position.x,
             player.position.y,

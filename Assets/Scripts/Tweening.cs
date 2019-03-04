@@ -19,8 +19,7 @@ public class Tweening : MonoBehaviour
     private bool inHomecomingTransit = false;
     private bool inFlyInTransit = false;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         homeLocation = new GameObject();
         homeLocation.transform.position = transform.position;
@@ -94,9 +93,8 @@ public class Tweening : MonoBehaviour
     void FlyIn()
     {
         inFlyInTransit = true;
-        transform.position = flyInSpawner.transform.position;
-        transform.rotation = flyInSpawner.transform.rotation;
         animations = flyInSpawner.GetComponentsInChildren<TweenAnimation>();
+        flyInSpawner.GetComponent<FlyInQueue>().AddItem(gameObject);
         PlayRandomAnimation();
     }
 

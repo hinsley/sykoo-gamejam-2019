@@ -205,6 +205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1135268888, guid: eca3fabe9b57549bdae7c8cc80877e05, type: 3}
+  deathExplosionPrefab: {fileID: 1782719550392369378, guid: 588f2c70776a3407bbe669fee9aa0653,
+    type: 3}
   bulletSpawnPoint: {fileID: 7881418802903004008}
   fireRate: 2
   firing: 0
@@ -226,6 +228,7 @@ MonoBehaviour:
     turnSpeed: 0.1
     firing: 0
     radius: 0.5
+  flyInSpawner: {fileID: 0}
 --- !u!61 &4746514752605052334
 BoxCollider2D:
   m_ObjectHideFlags: 0
