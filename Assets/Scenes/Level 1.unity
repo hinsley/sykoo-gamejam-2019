@@ -894,7 +894,8 @@ MonoBehaviour:
   moveSpeed: 4
   bulletPrefab: {fileID: 4343838112044863813, guid: ca9bb2dde1c8c43a29b9edd67077c51e,
     type: 3}
-  deathExplosionPrefab: {fileID: 0}
+  deathExplosionPrefab: {fileID: 3295214235013974460, guid: d33f68b0cec00453d99feec428ec43ae,
+    type: 3}
   bulletSpawnPoint: {fileID: 177567524}
   leftBoundary: {fileID: 830321137}
   rightBoundary: {fileID: 642450540}

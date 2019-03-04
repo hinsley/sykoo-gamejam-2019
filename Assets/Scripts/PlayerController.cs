@@ -38,15 +38,10 @@ public class PlayerController : MonoBehaviour
 
     public void Die()
     {
-        try
-        {
-            Instantiate(deathExplosionPrefab,
-                        transform.position,
-                        transform.rotation);
-        }
-        catch
-        {}
-        
+        Instantiate(deathExplosionPrefab,
+                    transform.position,
+                    transform.rotation);
+
         GameObject.Destroy(gameObject);
     }
 
