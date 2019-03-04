@@ -7,15 +7,13 @@
   - [X] Fly
   - [X] Gnat
   - [X] Wasp, Brown
-  - [X] Wasp. Red
+  - [X] Wasp, Red
   - [ ] Wasp, Yellow Jacket
-  - [ ] Stink Bug
+  - [ ] **Stink Bug**
   - [ ] Mosquito
-- [ ] Stars (?) (Submitted Prototype for Testing, Need additional once previewed.)
+- [ ] Stars *(Particle effect allowed the use of **only** one star texture with the use of randomization.)*
   - [X] Star-1
-  - [ ] Star-2
-  - [ ] Star-3
-- [ ] Wave/level icons (Submitted Prototype for Testing, Need additional once previewed.)
+- [ ] Wave/level icons 
   - [X] One
   - [X] Five
   - [X] Ten

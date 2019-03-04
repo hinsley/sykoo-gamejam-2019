@@ -8,7 +8,8 @@
 - [X] Ship firing
 - [X] Tweening engine for enemies
 - [ ] Levels
-- [ ] ***Sounds***
+- [ ] See *Sounds* list.
 - [X] Auto-fire
 - [X] Deaths and explosions for enemies and player
-- [ ] Fly-in spawners for level starts
+- [ ] **Fly-in spawners for level starts**
+- [ ] Hijack/Recover mechanic??
