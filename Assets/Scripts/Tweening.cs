@@ -12,7 +12,7 @@ public class Tweening : MonoBehaviour
     private TweenAnimation[] animations;
     private TweenAnimationCheckpoint[] checkpointQueue;
     private int currentCheckpointIndex;
-    private Vector3 targetPosition;
+    private Transform targetTransform;
     private float flySpeed;
     private float turnSpeed;
     private bool inAnimationTransit = false;
@@ -49,7 +49,7 @@ public class Tweening : MonoBehaviour
                     inHomecomingTransit = true;
                     inFlyInTransit = false;
                     gameObject.GetComponent<EnemyController>().firing = false;
-                    targetPosition = homecomingCheckpoint.transform.position;
+                    targetTransform = homecomingCheckpoint.transform;
                     flySpeed = homecomingCheckpoint.flySpeed;
                     turnSpeed = homecomingCheckpoint.turnSpeed;
                 }
@@ -125,7 +125,7 @@ public class Tweening : MonoBehaviour
 
     void TweenToCheckpoint(TweenAnimationCheckpoint checkpoint)
     {
-        targetPosition = checkpoint.transform.position;
+        targetTransform = checkpoint.transform;
         flySpeed = checkpointQueue[currentCheckpointIndex].flySpeed;
         turnSpeed = checkpointQueue[currentCheckpointIndex].turnSpeed;
         UpdateFiring();
@@ -147,7 +147,7 @@ public class Tweening : MonoBehaviour
 
     void UpdateRotation()
     {
-        Vector3 direction = (targetPosition - transform.position).normalized;
+        Vector3 direction = (targetTransform.position - transform.position).normalized;
         float z = Vector3.SignedAngle(Vector3.up, direction, Vector3.forward);
         Quaternion goalRotation = Quaternion.Euler(0, 0, z);
         transform.rotation = Quaternion.Lerp(
