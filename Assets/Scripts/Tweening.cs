@@ -6,6 +6,7 @@ public class Tweening : MonoBehaviour
 {
     [Tooltip("Do not set the Transform field within this item.")]
     public TweenAnimationCheckpoint homecomingCheckpoint;
+    public GameObject flyInSpawner;
 
     private GameObject homeLocation;
     private TweenAnimation[] animations;
@@ -16,6 +17,7 @@ public class Tweening : MonoBehaviour
     private float turnSpeed;
     private bool inAnimationTransit = false;
     private bool inHomecomingTransit = false;
+    private bool inFlyInTransit = false;
 
     // Start is called before the first frame update
     void Start()
@@ -24,8 +26,7 @@ public class Tweening : MonoBehaviour
         homeLocation.transform.position = transform.position;
         homeLocation.transform.rotation = transform.rotation;
         homecomingCheckpoint.transform = homeLocation.transform;
-        animations = gameObject.GetComponentsInChildren<TweenAnimation>();
-        PlayAnimation(0);
+        FlyIn();
     }
 
     // Update is called once per frame
@@ -46,6 +47,7 @@ public class Tweening : MonoBehaviour
                 {
                     inAnimationTransit = false;
                     inHomecomingTransit = true;
+                    inFlyInTransit = false;
                     gameObject.GetComponent<EnemyController>().firing = false;
                     targetPosition = homecomingCheckpoint.transform.position;
                     flySpeed = homecomingCheckpoint.flySpeed;
@@ -70,6 +72,7 @@ public class Tweening : MonoBehaviour
                 transform.position = homecomingCheckpoint.transform.position;
                 transform.rotation = homecomingCheckpoint.transform.rotation;
                 inHomecomingTransit = false;
+                animations = gameObject.GetComponentsInChildren<TweenAnimation>();
             }
             else
             {
@@ -87,14 +90,30 @@ public class Tweening : MonoBehaviour
         }
     }
 
+    void FlyIn()
+    {
+        inFlyInTransit = true;
+        transform.position = flyInSpawner.transform.position;
+        transform.rotation = flyInSpawner.transform.rotation;
+        animations = flyInSpawner.GetComponentsInChildren<TweenAnimation>();
+        PlayRandomAnimation();
+    }
+
+    // Play the animation at the supplied index.
+    public void PlayAnimation(int index) => QueueUpTweenAnimation(animations[index]);
+
+    public void PlayRandomAnimation()
+    {
+        System.Random rand = new System.Random();
+        int index = rand.Next(0, animations.Length);
+        PlayAnimation(index);
+    }
+
     void QueueUpTweenAnimation(TweenAnimation animation)
     {
         checkpointQueue = animation.checkpoints;
         currentCheckpointIndex = 0;
     }
-
-    // Play the animation at the supplied index.
-    public void PlayAnimation(int index) => QueueUpTweenAnimation(animations[index]);
 
     bool ReachedCheckpoint(TweenAnimationCheckpoint checkpoint)
     {
