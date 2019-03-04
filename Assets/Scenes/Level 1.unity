@@ -198,111 +198,113 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4733386965095219299, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 4746514752605052333, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_Name
       value: Enemy Gnat
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 8771962348735590639, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219325, guid: a803a69996bc045969603241ccb6e562,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 779f91f6d3c3b44b6809e516d0fd277a,
-        type: 3}
-    - target: {fileID: 4733386965539679158, guid: a803a69996bc045969603241ccb6e562,
+    - target: {fileID: 4032126589912811665, guid: f5eb4e5a90fc5459da52357e99c49e5a,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1260349826}
-    - target: {fileID: 487741899, guid: a803a69996bc045969603241ccb6e562, type: 3}
+    - target: {fileID: 5527031321966912506, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+        type: 3}
       propertyPath: checkpoints.Array.data[0].transform
       value: 
       objectReference: {fileID: 417375762}
-    - target: {fileID: 487741899, guid: a803a69996bc045969603241ccb6e562, type: 3}
+    - target: {fileID: 5527031321966912506, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+        type: 3}
       propertyPath: checkpoints.Array.data[1].transform
       value: 
       objectReference: {fileID: 852584218}
-    - target: {fileID: 235185729, guid: a803a69996bc045969603241ccb6e562, type: 3}
+    - target: {fileID: 1933515738034530090, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+        type: 3}
       propertyPath: checkpoints.Array.data[0].transform
       value: 
       objectReference: {fileID: 852584218}
-    - target: {fileID: 235185729, guid: a803a69996bc045969603241ccb6e562, type: 3}
+    - target: {fileID: 1933515738034530090, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+        type: 3}
       propertyPath: checkpoints.Array.data[1].transform
       value: 
       objectReference: {fileID: 417375762}
-    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
+    - target: {fileID: 180872345941817827, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+        type: 3}
       propertyPath: checkpoints.Array.data[0].transform
       value: 
       objectReference: {fileID: 417375762}
-    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
+    - target: {fileID: 180872345941817827, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+        type: 3}
       propertyPath: checkpoints.Array.data[1].transform
       value: 
       objectReference: {fileID: 2080242471}
-    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
+    - target: {fileID: 180872345941817827, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+        type: 3}
       propertyPath: checkpoints.Array.data[2].transform
       value: 
       objectReference: {fileID: 417375762}
-    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
+    - target: {fileID: 180872345941817827, guid: f5eb4e5a90fc5459da52357e99c49e5a,
+        type: 3}
       propertyPath: checkpoints.Array.data[3].transform
       value: 
       objectReference: {fileID: 852584218}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a803a69996bc045969603241ccb6e562, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: f5eb4e5a90fc5459da52357e99c49e5a, type: 3}
 --- !u!1 &177567523
 GameObject:
   m_ObjectHideFlags: 0
