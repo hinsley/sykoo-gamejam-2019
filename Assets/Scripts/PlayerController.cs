@@ -35,6 +35,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void Death(GameObject bullet)
+    {
+        GameObject.Destroy(bullet);
+        GameObject.Destroy(gameObject);
+    }
+
     void GenerateBullet()
     {
         if (Input.GetButton("Fire1") && readyToFire)
@@ -44,6 +50,13 @@ public class PlayerController : MonoBehaviour
                         transform.rotation);
             timeSinceLastFire = 0;
             readyToFire = false;
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "EnemyProjectile")
+        {
+            Death(other.gameObject);
         }
     }
 
