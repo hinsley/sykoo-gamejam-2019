@@ -2,7 +2,7 @@
 
 - [X] Explosions
   - [X] Sprites, 5 frames for animation
-  - [ ] Particle System built within Unity
+  - [X] Particle System built within Unity
 - [ ] Enemies
   - [X] Fly
   - [X] Gnat
@@ -18,7 +18,7 @@
 - [ ] Wave/level icons (Submitted Prototype for Testing, Need additional once previewed.)
   - [X] One
   - [X] Five
-  - [ ] Ten
+  - [X] Ten
   - [ ] Twenty
   - [ ] Thirty
   - [ ] Fifty
