@@ -1,6 +1,8 @@
 # Sprites
 
 - [X] Explosions
+  - [X] Sprites, 5 frames for animation
+  - [ ] Particle System built within Unity
 - [ ] Enemies
   - [X] Fly
   - [X] Gnat
