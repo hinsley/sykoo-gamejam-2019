@@ -10,3 +10,4 @@
 - [ ] Levels
 - [ ] ***Sounds***
 - [X] Auto-fire
+- [ ] Deaths and explosions for enemies and player
