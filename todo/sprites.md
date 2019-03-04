@@ -10,9 +10,9 @@
   - [ ] Stink Bug
   - [ ] Mosquito
 - [ ] Stars (?) (Submitted Prototype for Testing, Need additional once previewed.)
-  - [X] Sample-1
-  - [ ] Sample-2
-  - [ ] Sample-3
+  - [X] Star-1
+  - [ ] Star-2
+  - [ ] Star-3
 - [ ] Wave/level icons (Submitted Prototype for Testing, Need additional once previewed.)
   - [X] One
   - [X] Five
