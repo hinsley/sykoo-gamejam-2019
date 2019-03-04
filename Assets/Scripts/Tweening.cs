@@ -26,6 +26,7 @@ public class Tweening : MonoBehaviour
         homeLocation.transform.position = transform.position;
         homeLocation.transform.rotation = transform.rotation;
         homecomingCheckpoint.transform = homeLocation.transform;
+        homeLocation.transform.parent = transform.parent;
         FlyIn();
     }
 
