@@ -221,60 +221,6 @@ Transform:
   m_Father: {fileID: 1260349826}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &235185727
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 235185728}
-  - component: {fileID: 235185729}
-  m_Layer: 0
-  m_Name: Sample Animation 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &235185728
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235185727}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 411627321}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &235185729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235185727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998cd33d244f648eb9dddcfadbe2a0ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  checkpoints:
-  - transform: {fileID: 852584218}
-    flySpeed: 2.5
-    turnSpeed: 0.025
-    firing: 1
-    radius: 0.5
-  - transform: {fileID: 417375762}
-    flySpeed: 3.5
-    turnSpeed: 0.025
-    firing: 0
-    radius: 0.5
 --- !u!1 &267146730
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,39 +379,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &411627320
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 411627321}
-  m_Layer: 0
-  m_Name: Animations
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &411627321
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411627320}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 487741898}
-  - {fileID: 235185728}
-  - {fileID: 1718213525}
-  m_Father: {fileID: 1951714826}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &417375761
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,60 +442,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &487741897
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 487741898}
-  - component: {fileID: 487741899}
-  m_Layer: 0
-  m_Name: Sample Animation 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &487741898
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487741897}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 411627321}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &487741899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487741897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998cd33d244f648eb9dddcfadbe2a0ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  checkpoints:
-  - transform: {fileID: 417375762}
-    flySpeed: 2.5
-    turnSpeed: 0.025
-    firing: 0
-    radius: 0.5
-  - transform: {fileID: 852584218}
-    flySpeed: 3.5
-    turnSpeed: 0.025
-    firing: 1
-    radius: 0.5
 --- !u!1 &642450539
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,70 +813,6 @@ MonoBehaviour:
   bulletSpawnPoint: {fileID: 177567524}
   leftBoundary: {fileID: 830321137}
   rightBoundary: {fileID: 642450540}
---- !u!1 &1718213524
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1718213525}
-  - component: {fileID: 1718213526}
-  m_Layer: 0
-  m_Name: Sample Animation 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1718213525
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718213524}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 411627321}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1718213526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718213524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 998cd33d244f648eb9dddcfadbe2a0ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  checkpoints:
-  - transform: {fileID: 417375762}
-    flySpeed: 2.5
-    turnSpeed: 0.025
-    firing: 1
-    radius: 0.5
-  - transform: {fileID: 2080242471}
-    flySpeed: 2.5
-    turnSpeed: 0.06
-    firing: 1
-    radius: 0.5
-  - transform: {fileID: 417375762}
-    flySpeed: 2.5
-    turnSpeed: 0.06
-    firing: 1
-    radius: 0.5
-  - transform: {fileID: 852584218}
-    flySpeed: 3.5
-    turnSpeed: 0.025
-    firing: 1
-    radius: 0.5
 --- !u!1 &1916166621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,37 +892,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &1951714825
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1951714826}
-  m_Layer: 0
-  m_Name: Tweens
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1951714826
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951714825}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 411627321}
-  m_Father: {fileID: 4733386965095219324}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2080242470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,36 +922,6 @@ Transform:
   m_Father: {fileID: 945114564}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4733386965095219299 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4733386965095219299, guid: a803a69996bc045969603241ccb6e562,
-    type: 3}
-  m_PrefabInstance: {fileID: 4733386965655634829}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4733386965095219300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4733386965095219299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f94f2e055c3cd42e5b120996d5a8f589, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  homecomingCheckpoint:
-    transform: {fileID: 0}
-    flySpeed: 5
-    turnSpeed: 0.1
-    firing: 0
-    radius: 0.5
---- !u!4 &4733386965095219324 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4733386965095219324, guid: a803a69996bc045969603241ccb6e562,
-    type: 3}
-  m_PrefabInstance: {fileID: 4733386965655634829}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4733386965655634829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1255,16 +989,43 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4733386965095219298, guid: a803a69996bc045969603241ccb6e562,
-        type: 3}
-      propertyPath: fireRate
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4733386965539679158, guid: a803a69996bc045969603241ccb6e562,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1260349826}
+    - target: {fileID: 487741899, guid: a803a69996bc045969603241ccb6e562, type: 3}
+      propertyPath: checkpoints.Array.data[0].transform
+      value: 
+      objectReference: {fileID: 417375762}
+    - target: {fileID: 487741899, guid: a803a69996bc045969603241ccb6e562, type: 3}
+      propertyPath: checkpoints.Array.data[1].transform
+      value: 
+      objectReference: {fileID: 852584218}
+    - target: {fileID: 235185729, guid: a803a69996bc045969603241ccb6e562, type: 3}
+      propertyPath: checkpoints.Array.data[0].transform
+      value: 
+      objectReference: {fileID: 852584218}
+    - target: {fileID: 235185729, guid: a803a69996bc045969603241ccb6e562, type: 3}
+      propertyPath: checkpoints.Array.data[1].transform
+      value: 
+      objectReference: {fileID: 417375762}
+    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
+      propertyPath: checkpoints.Array.data[0].transform
+      value: 
+      objectReference: {fileID: 417375762}
+    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
+      propertyPath: checkpoints.Array.data[1].transform
+      value: 
+      objectReference: {fileID: 2080242471}
+    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
+      propertyPath: checkpoints.Array.data[2].transform
+      value: 
+      objectReference: {fileID: 417375762}
+    - target: {fileID: 1718213526, guid: a803a69996bc045969603241ccb6e562, type: 3}
+      propertyPath: checkpoints.Array.data[3].transform
+      value: 
+      objectReference: {fileID: 852584218}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a803a69996bc045969603241ccb6e562, type: 3}
 --- !u!1001 &6691952192401124100
