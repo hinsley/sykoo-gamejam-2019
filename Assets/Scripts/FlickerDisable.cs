@@ -8,12 +8,12 @@ public class FlickerDisable : MonoBehaviour
     public float flickerRate;
     public GameObject flickeringGameObject;
 
-    private float timeElapsed;
+    private float timeElapsed = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class FlickerDisable : MonoBehaviour
         timeElapsed += Time.deltaTime;
         if (timeElapsed >= 1 / flickerRate)
         {
-            flickeringGameObject.SetActive(flickeringGameObject.activeSelf);
+            flickeringGameObject.SetActive(!flickeringGameObject.activeSelf);
         }
         timeElapsed = timeElapsed % (1 / flickerRate);
     }
