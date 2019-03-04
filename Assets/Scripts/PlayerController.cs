@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float fireRate;
     public float moveSpeed;
     public GameObject bulletPrefab;
+    public GameObject deathExplosionPrefab;
     public Transform bulletSpawnPoint;
     public Transform leftBoundary;
     public Transform rightBoundary;
@@ -35,9 +36,17 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void Death(GameObject bullet)
+    public void Die()
     {
-        GameObject.Destroy(bullet);
+        try
+        {
+            Instantiate(deathExplosionPrefab,
+                        transform.position,
+                        transform.rotation);
+        }
+        catch
+        {}
+        
         GameObject.Destroy(gameObject);
     }
 
@@ -50,13 +59,6 @@ public class PlayerController : MonoBehaviour
                         transform.rotation);
             timeSinceLastFire = 0;
             readyToFire = false;
-        }
-    }
-
-    void OnTriggerEnter2D(Collider2D other) {
-        if (other.tag == "EnemyProjectile")
-        {
-            Death(other.gameObject);
         }
     }
 

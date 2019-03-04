@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public GameObject bulletPrefab;
+    public GameObject deathExplosionPrefab;
     public Transform bulletSpawnPoint;
     // How many bullets are fired per second.
     public float fireRate;
@@ -36,9 +37,17 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    void Death(GameObject bullet)
+    public void Die()
     {
-        GameObject.Destroy(bullet);
+        try
+        {
+            Instantiate(deathExplosionPrefab,
+                        transform.position,
+                        transform.rotation);
+        }
+        catch
+        {}
+
         GameObject.Destroy(gameObject);
     }
 
@@ -47,13 +56,6 @@ public class EnemyController : MonoBehaviour
         Instantiate(bulletPrefab,
                     bulletSpawnPoint.position,
                     bulletSpawnPoint.rotation);
-    }
-
-    void OnTriggerEnter2D(Collider2D other) {
-        if (other.tag == "PlayerProjectile")
-        {
-            Death(other.gameObject);
-        }
     }
 
     void ResetTimer()

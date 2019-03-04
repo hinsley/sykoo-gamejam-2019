@@ -27,5 +27,15 @@ public class BulletController : MonoBehaviour
         {
             GameObject.Destroy(gameObject);
         }
+        else if (gameObject.tag == "PlayerProjectile" && other.tag == "Enemy")
+        {
+            other.gameObject.GetComponent<EnemyController>().Die();
+            GameObject.Destroy(gameObject);
+        }
+        else if (gameObject.tag == "EnemyProjectile" && other.tag == "Player")
+        {
+            other.gameObject.GetComponent<PlayerController>().Die();
+            GameObject.Destroy(gameObject);
+        }
     }
 }
