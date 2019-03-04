@@ -11,5 +11,5 @@
 - [ ] See *Sounds* list.
 - [X] Auto-fire
 - [X] Deaths and explosions for enemies and player
-- [ ] **__Fly-in spawners for level starts__**
+- [ ] **Fly-in spawners for level starts**
 - [ ] Hijack/Recover mechanic??
