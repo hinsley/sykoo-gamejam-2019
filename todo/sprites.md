@@ -1,10 +1,28 @@
 # Sprites
 
 - [X] Explosions
+  - [X] Sprites, 5 frames for animation
+  - [ ] Particle System built within Unity
 - [ ] Enemies
   - [X] Fly
   - [X] Gnat
-- [ ] Stars (?)
-- [ ] Wave/level icons
+  - [X] Wasp, Brown
+  - [X] Wasp. Red
+  - [ ] Wasp, Yellow Jacket
+  - [ ] Stink Bug
+  - [ ] Mosquito
+- [ ] Stars (?) (Submitted Prototype for Testing, Need additional once previewed.)
+  - [X] Star-1
+  - [ ] Star-2
+  - [ ] Star-3
+- [ ] Wave/level icons (Submitted Prototype for Testing, Need additional once previewed.)
+  - [X] One
+  - [X] Five
+  - [ ] Ten
+  - [ ] Twenty
+  - [ ] Thirty
+  - [ ] Fifty
 - [X] Bullets / blaster round
+  - [X] Player
+  - [X] Enemy
 - [X] Player spacecraft
