@@ -84,18 +84,6 @@ public class Tweening : MonoBehaviour
             {
                 TweenToCheckpoint(checkpointQueue[currentCheckpointIndex]);
             }
-            if (Input.GetKeyDown("1"))
-            {
-                PlayAnimation(0);
-            }
-            if (Input.GetKeyDown("2"))
-            {
-                PlayAnimation(1);
-            }
-            if (Input.GetKeyDown("3"))
-            {
-                PlayAnimation(2);
-            }
         }
     }
 
