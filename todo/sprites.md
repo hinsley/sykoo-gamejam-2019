@@ -13,8 +13,6 @@
   - [ ] Mosquito
 - [ ] Stars (?) *(Particle effect allowed the use of **only** one star texture with the use of randomization.)*
   - [X] Star-1
-  - [ ] Star-2
-  - [ ] Star-3
 - [ ] Wave/level icons (Submitted Prototype for Testing, Need additional once previewed.)
   - [X] One
   - [X] Five
