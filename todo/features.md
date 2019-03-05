@@ -4,6 +4,12 @@
   - [ ] Main menu
   - [ ] Pause menu
 - [X] Ship controls
+- [ ] Player Life Counter
+  - [X] Life Counter Graphics & UI
+  - [ ] Life Counter Tracking System
+- [ ] Level Tracking
+  - [X] Level Tracking Graphics & UI
+  - [ ] Level Tracking Tracking System
 - [ ] Ship warp drive mechanic
 - [X] Ship firing
 - [X] Tweening engine for enemies
