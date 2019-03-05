@@ -10,7 +10,7 @@
   - [X] Wasp, Red
   - [X] Wasp, Yellow Jacket
   - [ ] **Stink Bug**
-  - [ ] Mosquito
+  - [X] Mosquito
 - [X] Stars *(Particle effect allowed the use of **only** one star texture with the use of randomization.)*
   - [X] Star-1
 - [X] Wave/level icons 
