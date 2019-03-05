@@ -2,6 +2,7 @@
 
 - [ ] Menus
   - [ ] Main menu
+  - [X] Gameplay UI
   - [ ] Pause menu
 - [X] Ship controls
 - [ ] Player Life Counter
