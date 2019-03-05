@@ -2,8 +2,18 @@
 
 - [ ] Menus
   - [ ] Main menu
+  - [X] Gameplay UI
   - [ ] Pause menu
 - [X] Ship controls
+- [ ] Player Life Counter
+  - [X] Life Counter Graphics & UI
+  - [ ] Life Counter Tracking System
+- [ ] Level Tracking
+  - [X] Level Tracking Graphics & UI
+  - [ ] Level Tracking System
+- [ ] Time Played *(Timer)* Tracking
+  - [X] Time Played Tracking Graphics & UI
+  - [ ] Time Played Tracking System
 - [ ] Ship warp drive mechanic
 - [X] Ship firing
 - [X] Tweening engine for enemies

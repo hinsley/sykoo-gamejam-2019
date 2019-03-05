@@ -8,18 +8,18 @@
   - [X] Gnat
   - [X] Wasp, Brown
   - [X] Wasp, Red
-  - [ ] Wasp, Yellow Jacket
+  - [X] Wasp, Yellow Jacket
   - [ ] **Stink Bug**
   - [ ] Mosquito
-- [ ] Stars *(Particle effect allowed the use of **only** one star texture with the use of randomization.)*
+- [X] Stars *(Particle effect allowed the use of **only** one star texture with the use of randomization.)*
   - [X] Star-1
-- [ ] Wave/level icons 
+- [X] Wave/level icons 
   - [X] One
   - [X] Five
   - [X] Ten
-  - [ ] Twenty
-  - [ ] Thirty
-  - [ ] Fifty
+  - [X] Twenty
+  - [X] Thirty
+  - [X] Fifty
 - [X] Bullets / blaster round
   - [X] Player
   - [X] Enemy
