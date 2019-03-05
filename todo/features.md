@@ -4,6 +4,10 @@
   - [ ] Main menu
   - [X] Gameplay UI
   - [ ] Pause menu
+- [ ] UI for Announcements
+  - [X] Player 1 *(Game start & player announcement)*
+  - [X] Stage *(Start of level announcement)* 
+  - [X] Enemy Points *(Announcement for point value of each enemy)*
 - [X] Ship controls
 - [ ] Player Life Counter
   - [X] Life Counter Graphics & UI
@@ -14,7 +18,6 @@
 - [ ] Time Played *(Timer)* Tracking
   - [X] Time Played Tracking Graphics & UI
   - [ ] Time Played Tracking System
-- [ ] Ship warp drive mechanic
 - [X] Ship firing
 - [X] Tweening engine for enemies
 - [X] Levels
@@ -25,3 +28,4 @@
 - [X] **Fly-in spawners for level starts**
 - [ ] Fly-in queues
 - [ ] Hijack/Recover mechanic??
+- [ ] Ship warp drive mechanic
