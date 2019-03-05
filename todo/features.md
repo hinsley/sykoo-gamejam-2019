@@ -9,7 +9,10 @@
   - [ ] Life Counter Tracking System
 - [ ] Level Tracking
   - [X] Level Tracking Graphics & UI
-  - [ ] Level Tracking Tracking System
+  - [ ] Level Tracking System
+- [ ] Time Played *(Timer)* Tracking
+  - [X] Time Played Tracking Graphics & UI
+  - [ ] Time Played Tracking System
 - [ ] Ship warp drive mechanic
 - [X] Ship firing
 - [X] Tweening engine for enemies
