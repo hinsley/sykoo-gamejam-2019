@@ -727,6 +727,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7066092894376219052, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_Size.x
@@ -832,6 +842,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7066092894376219052, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_Size.x
@@ -937,6 +957,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7066092894376219052, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_Size.x
@@ -1042,6 +1072,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7066092894376219052, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_Size.x
@@ -1147,6 +1187,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7066092894376219052, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_Size.x
@@ -1252,6 +1302,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7066092894376219052, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_Size.x
@@ -1357,6 +1417,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7066092894376219052, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_Size.x
@@ -1462,6 +1532,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7066092894376219052, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_Size.x
@@ -1567,6 +1647,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7066092894376219052, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_Size.x
@@ -1672,6 +1762,16 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2113945887}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.radius
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 7066092894376219052, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_Size.x
