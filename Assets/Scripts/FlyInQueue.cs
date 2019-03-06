@@ -18,6 +18,7 @@ public class FlyInQueue : MonoBehaviour
 
     void Awake()
     {
+        InitializeQueue();
         timeElapsed = 0;
     }
 
@@ -32,12 +33,17 @@ public class FlyInQueue : MonoBehaviour
         }
     }
 
-    public void AddItem(GameObject item)
+    private void InitializeQueue()
     {
         if (queue == null)
         {
             queue = new List<GameObject>();
         }
+    }
+
+    public void AddItem(GameObject item)
+    {
+        InitializeQueue();
         item.transform.position = transform.position;
         item.transform.rotation = transform.rotation;
         item.SetActive(false);

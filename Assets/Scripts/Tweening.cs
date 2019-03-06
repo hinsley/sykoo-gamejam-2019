@@ -6,8 +6,16 @@ public class Tweening : MonoBehaviour
 {
     [Tooltip("Do not set the Transform field within this item.")]
     public TweenAnimationCheckpoint homecomingCheckpoint;
+    public GameObject level;
     public GameObject flyInSpawner;
+    [System.NonSerialized]
+    public bool inAnimationTransit = false;
+    [System.NonSerialized]
+    public bool inHomecomingTransit = false;
+    [System.NonSerialized]
+    public bool inFlyInTransit = false;
 
+    private LevelBreathe levelBreathe;
     private GameObject homeLocation;
     private TweenAnimation[] animations;
     private TweenAnimationCheckpoint[] checkpointQueue;
@@ -15,12 +23,10 @@ public class Tweening : MonoBehaviour
     private Transform targetTransform;
     private float flySpeed;
     private float turnSpeed;
-    private bool inAnimationTransit = false;
-    private bool inHomecomingTransit = false;
-    private bool inFlyInTransit = false;
 
     void Awake()
     {
+        levelBreathe = level.GetComponent<LevelBreathe>();
         homeLocation = new GameObject();
         homeLocation.transform.position = transform.position;
         homeLocation.transform.rotation = transform.rotation;
@@ -40,7 +46,7 @@ public class Tweening : MonoBehaviour
             {
                 Debug.LogFormat("{0} reached checkpoint {1}.",
                                 gameObject.name,
-                                currentCheckpointIndex);
+                                currentCheckpointIndex + 1);
                 // If reached end of checkpoint queue for the current
                 // animation...
                 if (++currentCheckpointIndex >= checkpointQueue.Length)
@@ -72,7 +78,7 @@ public class Tweening : MonoBehaviour
                 transform.position = homecomingCheckpoint.transform.position;
                 transform.rotation = homecomingCheckpoint.transform.rotation;
                 inHomecomingTransit = false;
-                animations = gameObject.GetComponentsInChildren<TweenAnimation>();
+                animations = gameObject.GetComponentInChildren<TweenAnimationLibrary>().animations;
             }
             else
             {
@@ -90,10 +96,21 @@ public class Tweening : MonoBehaviour
         }
     }
 
+    public bool isIdle
+    {
+        get
+        {
+            return !inFlyInTransit ||
+                   !inAnimationTransit ||
+                   !inHomecomingTransit ||
+                   currentCheckpointIndex != 0;
+        }
+    }
+
     void FlyIn()
     {
         inFlyInTransit = true;
-        animations = flyInSpawner.GetComponentsInChildren<TweenAnimation>();
+        animations = flyInSpawner.GetComponentInChildren<TweenAnimationLibrary>().animations;
         flyInSpawner.GetComponent<FlyInQueue>().AddItem(gameObject);
         PlayRandomAnimation();
     }
@@ -103,9 +120,10 @@ public class Tweening : MonoBehaviour
 
     public void PlayRandomAnimation()
     {
+
         System.Random rand = new System.Random();
         int index = rand.Next(0, animations.Length);
-        PlayAnimation(index);
+        QueueUpTweenAnimation(Utils.GetRandomElement(animations));
     }
 
     void QueueUpTweenAnimation(TweenAnimation animation)
@@ -117,8 +135,8 @@ public class Tweening : MonoBehaviour
     bool ReachedCheckpoint(TweenAnimationCheckpoint checkpoint)
     {
         return Vector3.Distance(
-            transform.position,
-            checkpoint.transform.position
+            transform.localPosition,
+            checkpoint.transform.localPosition
         ) < checkpoint.radius;
     }
 

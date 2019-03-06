@@ -6,7 +6,7 @@
   - [ ] Pause menu *(Press *** to continue, Press *** to EXIT)*
 - [ ] UI for Announcements
   - [X] Player 1 *(Game start & player announcement)*
-  - [X] Stage *(Start of level announcement)* 
+  - [X] Stage *(Start of level announcement)*
   - [X] Enemy Points *(Announcement for point value of each enemy)*
 - [X] Ship controls
 - [ ] Player Life Counter

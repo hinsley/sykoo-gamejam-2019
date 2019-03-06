@@ -6,18 +6,6 @@ using UnityEngine;
 public class TweenAnimation : MonoBehaviour
 {
     public TweenAnimationCheckpoint[] checkpoints;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
 
 [System.Serializable]

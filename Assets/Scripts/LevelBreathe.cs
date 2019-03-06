@@ -4,36 +4,50 @@ using UnityEngine;
 
 public class LevelBreathe : MonoBehaviour
 {
-    public float breathDuration;
-    public float maxXScaleOffset;
-    public float maxYScaleOffset;
+    public float breathScaleDuration;
+    public float breathSwayDuration;
+    public float maxScaleOffset;
+    public float maxSwayOffset;
     
+    private float originalXPosition;
     private float originalXScale;
     private float originalYScale;
-    private float timeElapsedInBreath;
+    private float timeElapsedInBreathScale;
+    private float timeElapsedInBreathSway;
 
     // Start is called before the first frame update
     void Start()
     {
         originalXScale = transform.localScale.x;
         originalYScale = transform.localScale.y;
+        originalXPosition = transform.localPosition.x;
     }
 
     // Update is called once per frame
     void Update()
     {
-        timeElapsedInBreath = (timeElapsedInBreath + Time.deltaTime) % breathDuration;
+        timeElapsedInBreathScale = (timeElapsedInBreathScale + Time.deltaTime) % breathScaleDuration;
         // [0.0, 1.0]
-        float breathPoint = timeElapsedInBreath / breathDuration;
-        UpdateValues(breathPoint);
+        float breathScalePoint = timeElapsedInBreathScale / breathScaleDuration;
+        timeElapsedInBreathSway = (timeElapsedInBreathSway + Time.deltaTime) % breathSwayDuration;
+        // [0.0, 1.0]
+        float breathSwayPoint = timeElapsedInBreathSway / breathSwayDuration;
+        UpdateValues(breathScalePoint, breathSwayPoint);
     }
 
-    void UpdateValues(float breathPoint)
+    void UpdateValues(float breathScalePoint, float breathSwayPoint)
     {
+        float scaleOffset = Mathf.Sin(breathScalePoint * Mathf.PI * 2) * maxScaleOffset;
         transform.localScale = new Vector3(
-            Mathf.Sin(breathPoint * Mathf.PI * 2) * maxXScaleOffset + originalXScale,
-            Mathf.Sin(breathPoint * Mathf.PI * 2) * maxYScaleOffset + originalYScale,
+            scaleOffset + originalXScale,
+            scaleOffset + originalYScale,
             transform.localScale.z
+        );
+
+        transform.localPosition = new Vector3(
+            Mathf.Sin(breathSwayPoint * Mathf.PI * 2) * maxSwayOffset + originalXPosition, 
+            transform.localPosition.y,
+            transform.localPosition.z
         );
     }
 }
