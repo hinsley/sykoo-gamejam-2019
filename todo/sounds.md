@@ -1,17 +1,19 @@
 # Sounds
 
 - [ ] Deaths for each enemy type
-   - [X] Enemy 1 Fly
-   - [X] Enemy 2 Gnat
-   - [ ] Enemy 3 Yellow Jacket
-   - [X] Enemy 4 Brown Wasp
-   - [X] Enemy 5 Red Wasp
-   - [ ] Enemy 6 Mosquito
-   - [ ] Enemy 7 Stink Bug
+   - [X] Enemy 1 Fly - (Enemy_Death_01)
+   - [X] Enemy 2 Gnat - (Enemy_Death_02)
+   - [X] Enemy 3 Yellow Jacket - (Enemy_Death_03)
+   - [X] Enemy 4 Brown Wasp - (Enemy_Death_04)
+   - [X] Enemy 5 Red Wasp - (Enemy_Death_05)
+   - [X] Enemy 6 Mosquito - (Enemy_Death_06)
+   - [X] Enemy 7 Stink Bug - (Enemy_Death_07)
 - [X] Bullet / blaster round firing
-- [X] Sound for populating level icons at start of each level. *( https://www.youtube.com/watch?v=dvjapcHsqXY @ 04:14 )*
+   - [X] (Laser_Player)
+- [X] Sound for populating level icons at start of each level. *( https://www.youtube.com/watch?v=dvjapcHsqXY @ 04:14 )* 
+   - Level_Icon_Sound_01
 - [X] Death for player *(Uploaded single sound to be used as P1 death sound)*
-- [ ] Game over sound
+- [ ] Game over sound *(There's no sound for game over other than Player Explosion. No sound afterwards until name entry screen.)*
 - [ ] Name Entry Screen music
 - [ ] Enemy attack sound (bosses only?)
     - [X] Single Bzzz sound for formation attacks
