@@ -1,9 +1,9 @@
 # Features
 
 - [ ] Menus
-  - [ ] Main menu
+  - [ ] Main menu *(Press A to start)*
   - [X] Gameplay UI
-  - [ ] Pause menu
+  - [ ] Pause menu *(Press *** to continue, Press *** to EXIT)*
 - [ ] UI for Announcements
   - [X] Player 1 *(Game start & player announcement)*
   - [X] Stage *(Start of level announcement)* 
