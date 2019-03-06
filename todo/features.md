@@ -25,7 +25,7 @@
 - [ ] See *Sounds* list.
 - [X] Auto-fire
 - [X] Deaths and explosions for enemies and player
-- [X] **Fly-in spawners for level starts**
-- [ ] Fly-in queues
+- [X] Fly-in spawners for level starts
+- [X] Fly-in queues
 - [ ] Hijack/Recover mechanic??
 - [ ] Ship warp drive mechanic
