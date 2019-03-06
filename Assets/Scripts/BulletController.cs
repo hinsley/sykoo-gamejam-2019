@@ -7,7 +7,8 @@ public class BulletController : MonoBehaviour
     public float travelSpeed;
     public AudioClip soundEffect;
     
-    GameObject bulletTerminator;
+    private GameObject bulletTerminator;
+    private EnemyController destroyedEnemy;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,11 @@ public class BulletController : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.up * travelSpeed * Time.deltaTime);
+        if (destroyedEnemy != null)
+        {
+            destroyedEnemy.Die();
+            GameObject.Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -29,8 +35,7 @@ public class BulletController : MonoBehaviour
         }
         else if (gameObject.tag == "PlayerProjectile" && other.tag == "Enemy")
         {
-            other.gameObject.GetComponent<EnemyController>().Die();
-            GameObject.Destroy(gameObject);
+            destroyedEnemy = other.gameObject.GetComponent<EnemyController>();
         }
         else if (gameObject.tag == "EnemyProjectile" && other.tag == "Player")
         {
