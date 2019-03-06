@@ -164,7 +164,7 @@ public class Tweening : MonoBehaviour
 
     void UpdateRotation()
     {
-        Vector3 direction = (targetTransform.position - transform.position).normalized;
+        Vector3 direction = (targetTransform.localPosition - transform.localPosition).normalized;
         float z = Vector3.SignedAngle(Vector3.up, direction, Vector3.forward);
         Quaternion goalRotation = Quaternion.Euler(0, 0, z);
         transform.rotation = Quaternion.Lerp(
