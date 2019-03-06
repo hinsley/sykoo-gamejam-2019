@@ -8,6 +8,7 @@ TagManager:
   - PlayerProjectile
   - EnemyProjectile
   - Enemy
+  - AudioSource
   layers:
   - Default
   - TransparentFX

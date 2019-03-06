@@ -12,7 +12,7 @@ public class BulletController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<AudioSource>().Play();
+        Utils.GetAudioSource().PlayOneShot(soundEffect);
         bulletTerminator = GameObject.Find("Bullet Terminator");
     }
 

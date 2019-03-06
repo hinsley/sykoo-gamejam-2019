@@ -6,6 +6,11 @@ public static class Utils
 {
     private static System.Random random = new System.Random();
 
+    public static AudioSource GetAudioSource()
+    {
+        return GameObject.FindGameObjectWithTag("AudioSource").GetComponent<AudioSource>();
+    }
+
     public static GameObject[] GetChildren(GameObject parent)
     {
         List<GameObject> childList = new List<GameObject>();

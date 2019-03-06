@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public Transform bulletSpawnPoint;
     public Transform leftBoundary;
     public Transform rightBoundary;
+    public AudioClip deathSound;
 
     private bool readyToFire = true;
     private float timeSinceLastFire = 0;
@@ -41,6 +42,7 @@ public class PlayerController : MonoBehaviour
         Instantiate(deathExplosionPrefab,
                     transform.position,
                     transform.rotation);
+        Utils.GetAudioSource().PlayOneShot(deathSound);
 
         GameObject.Destroy(gameObject);
     }
