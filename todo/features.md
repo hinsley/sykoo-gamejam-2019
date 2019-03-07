@@ -1,5 +1,7 @@
 # Features
 
+- [X] 32x32 Logo/Icon
+- [ ] Name
 - [X] Menus
   - [X] Main menu *(Press A to start)*
   - [X] Gameplay UI
