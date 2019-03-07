@@ -10,6 +10,10 @@
    - [X] Enemy 7 Stink Bug - (Enemy_Death_07)
 - [X] Bullet / blaster round firing
    - [X] (Laser_Player)
+   - [X] (Pew_001)
+   - [X] (Pew_002)
+   - [X] (Pew_003)
+   - [X] (Pew_004)
 - [X] Sound for populating level icons at start of each level. *( https://www.youtube.com/watch?v=dvjapcHsqXY @ 04:14 )* 
    - Level_Icon_Sound_01
 - [ ] Death for player 
