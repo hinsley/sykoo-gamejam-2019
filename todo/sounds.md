@@ -19,6 +19,6 @@
 - [ ] Death for player 
 - [X] Game over sound *(There's no sound for game over other than Player Explosion. No sound afterwards until name entry screen.)*
 - [ ] Name Entry Screen music
-- [ ] Enemy attack sound (bosses only?)
+- [X] Enemy attack sound
     - [X] Single Bzzz sound for formation attacks
 - [ ] Warp drive ***(Are we doing this?)***
