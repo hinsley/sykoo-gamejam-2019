@@ -9,6 +9,7 @@
   - [X] Stage *(Start of level announcement)*
   - [X] Enemy Points *(Announcement for point value of each enemy)*
 - [X] Ship controls
+- [ ] **Double enemy points given if killed while in attack mode.**
 - [ ] Player Life Counter
   - [X] Life Counter Graphics & UI
   - [ ] Life Counter Tracking System
