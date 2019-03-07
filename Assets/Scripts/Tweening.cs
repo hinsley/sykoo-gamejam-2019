@@ -23,6 +23,7 @@ public class Tweening : MonoBehaviour
     private Transform targetTransform;
     private float flySpeed;
     private float turnSpeed;
+    private float timeSinceLastCheckpoint;
 
     void Awake()
     {
@@ -38,6 +39,8 @@ public class Tweening : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        timeSinceLastCheckpoint += Time.deltaTime;
+
         // If playing an animation...
         if (inAnimationTransit)
         {
@@ -147,6 +150,7 @@ public class Tweening : MonoBehaviour
         turnSpeed = checkpointQueue[currentCheckpointIndex].turnSpeed;
         UpdateFiring();
         inAnimationTransit = true;
+        timeSinceLastCheckpoint = 0;
     }
 
     void UpdateFiring()
@@ -170,7 +174,7 @@ public class Tweening : MonoBehaviour
         transform.rotation = Quaternion.Lerp(
             transform.rotation,
             goalRotation,
-            turnSpeed
+            turnSpeed * Mathf.Sqrt(timeSinceLastCheckpoint)
         );
     }
 }

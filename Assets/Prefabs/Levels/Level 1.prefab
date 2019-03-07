@@ -451,17 +451,17 @@ MonoBehaviour:
   checkpoints:
   - transform: {fileID: 7698451063034687421}
     flySpeed: 5
-    turnSpeed: 0.025
+    turnSpeed: 0.25
     firing: 0
     radius: 0.5
   - transform: {fileID: 3181228968281874516}
     flySpeed: 5
-    turnSpeed: 0.1
+    turnSpeed: 0.5
     firing: 0
     radius: 0.5
   - transform: {fileID: 7698451063034687421}
     flySpeed: 3.5
-    turnSpeed: 0.1
+    turnSpeed: 0.25
     firing: 0
     radius: 0.25
 --- !u!1 &8336185951726228854
