@@ -12,9 +12,9 @@
    - [X] (Laser_Player)
 - [X] Sound for populating level icons at start of each level. *( https://www.youtube.com/watch?v=dvjapcHsqXY @ 04:14 )* 
    - Level_Icon_Sound_01
-- [X] Death for player *(Uploaded single sound to be used as P1 death sound)*
+- [ ] Death for player 
 - [ ] Game over sound *(There's no sound for game over other than Player Explosion. No sound afterwards until name entry screen.)*
 - [ ] Name Entry Screen music
 - [ ] Enemy attack sound (bosses only?)
     - [X] Single Bzzz sound for formation attacks
-- [ ] Warp drive
+- [ ] Warp drive *(Are we doing this?)*
