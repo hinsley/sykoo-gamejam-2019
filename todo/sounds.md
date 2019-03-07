@@ -1,6 +1,6 @@
 # Sounds
 
-- [ ] Deaths for each enemy type
+- [X] Deaths for each enemy type
    - [X] Enemy 1 Fly - (Enemy_Death_01)
    - [X] Enemy 2 Gnat - (Enemy_Death_02)
    - [X] Enemy 3 Yellow Jacket - (Enemy_Death_03)
@@ -17,8 +17,8 @@
 - [X] Sound for populating level icons at start of each level. *( https://www.youtube.com/watch?v=dvjapcHsqXY @ 04:14 )* 
    - Level_Icon_Sound_01
 - [ ] Death for player 
-- [ ] Game over sound *(There's no sound for game over other than Player Explosion. No sound afterwards until name entry screen.)*
+- [X] Game over sound *(There's no sound for game over other than Player Explosion. No sound afterwards until name entry screen.)*
 - [ ] Name Entry Screen music
 - [ ] Enemy attack sound (bosses only?)
     - [X] Single Bzzz sound for formation attacks
-- [ ] Warp drive *(Are we doing this?)*
+- [ ] Warp drive ***(Are we doing this?)***
