@@ -9,6 +9,7 @@ TagManager:
   - EnemyProjectile
   - Enemy
   - AudioSource
+  - BulletSpawnPoint
   layers:
   - Default
   - TransparentFX
