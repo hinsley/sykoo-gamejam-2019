@@ -747,6 +747,11 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: m_TagString
+      value: BulletSpawnPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 6853289105660888020, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: animations.Array.size
@@ -861,6 +866,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: m_TagString
+      value: BulletSpawnPoint
       objectReference: {fileID: 0}
     - target: {fileID: 6853289105660888020, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
@@ -977,6 +987,11 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: m_TagString
+      value: BulletSpawnPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 6853289105660888020, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: animations.Array.size
@@ -1091,6 +1106,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: m_TagString
+      value: BulletSpawnPoint
       objectReference: {fileID: 0}
     - target: {fileID: 6853289105660888020, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
@@ -1207,6 +1227,11 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: m_TagString
+      value: BulletSpawnPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 6853289105660888020, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: animations.Array.size
@@ -1321,6 +1346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: m_TagString
+      value: BulletSpawnPoint
       objectReference: {fileID: 0}
     - target: {fileID: 6853289105660888020, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
@@ -1437,6 +1467,11 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: m_TagString
+      value: BulletSpawnPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 6853289105660888020, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: animations.Array.size
@@ -1551,6 +1586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: m_TagString
+      value: BulletSpawnPoint
       objectReference: {fileID: 0}
     - target: {fileID: 6853289105660888020, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
@@ -1667,6 +1707,11 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: m_TagString
+      value: BulletSpawnPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 6853289105660888020, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: animations.Array.size
@@ -1781,6 +1826,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
+        type: 3}
+      propertyPath: m_TagString
+      value: BulletSpawnPoint
       objectReference: {fileID: 0}
     - target: {fileID: 6853289105660888020, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}

@@ -22,7 +22,8 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (firing)
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (firing && player != null && player.activeInHierarchy)
         {
             firingTimer += Time.deltaTime;
             if (firingTimer >= 1 / fireRate)
