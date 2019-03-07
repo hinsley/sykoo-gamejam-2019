@@ -1,10 +1,10 @@
 # Features
 
-- [ ] Menus
-  - [ ] Main menu *(Press A to start)*
+- [X] Menus
+  - [X] Main menu *(Press A to start)*
   - [X] Gameplay UI
-  - [ ] Pause menu *(Press *** to continue, Press *** to EXIT)*
-- [ ] UI for Announcements
+  - [X] Pause menu *(Press *** to continue, Press *** to EXIT)*
+- [X] UI for Announcements
   - [X] Player 1 *(Game start & player announcement)*
   - [X] Stage *(Start of level announcement)*
   - [X] Enemy Points *(Announcement for point value of each enemy)*
@@ -24,10 +24,11 @@
 - [X] Tweening engine for enemies
 - [X] Levels
 - [ ] Level loader
-- [ ] See *Sounds* list.
+- [ ] Sounds
 - [X] Auto-fire
 - [X] Deaths and explosions for enemies and player
 - [X] Fly-in spawners for level starts
 - [X] Fly-in queues
 - [ ] Hijack/Recover mechanic??
 - [ ] Ship warp drive mechanic
+- [ ] Speed up Player1 fire rate slightly
