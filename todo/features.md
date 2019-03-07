@@ -10,6 +10,7 @@
   - [X] Enemy Points *(Announcement for point value of each enemy)*
 - [X] Ship controls
 - [ ] **Double enemy points given if killed while in attack mode.**
+- [ ] **Enemies stop attacking after Player dies.**
 - [ ] Player Life Counter
   - [X] Life Counter Graphics & UI
   - [ ] Life Counter Tracking System
