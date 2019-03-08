@@ -4165,7 +4165,7 @@ PrefabInstance:
     - target: {fileID: 4370644882150755862, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Gnat - Variant of Generic Enemy
+      value: Enemy Gnat
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -4400,7 +4400,7 @@ PrefabInstance:
     - target: {fileID: 6972990198257793997, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Red Wasp - Variant of Generic Enemy
+      value: Enemy Red Wasp
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
