@@ -48,6 +48,7 @@ public class WaveManager : MonoBehaviour
                 Tweening tweening = enemy.GetComponent<Tweening>();
                 if (tweening.isIdle)
                 {
+                    enemy.GetComponent<EnemyController>().PlayDispatchSound();
                     tweening.PlayRandomAnimation();
                     break;
                 }

@@ -82,6 +82,7 @@ public class Tweening : MonoBehaviour
                 transform.rotation = homecomingCheckpoint.transform.rotation;
                 inHomecomingTransit = false;
                 animations = gameObject.GetComponentInChildren<TweenAnimationLibrary>().animations;
+                gameObject.GetComponent<AudioSource>().Stop();
             }
             else
             {

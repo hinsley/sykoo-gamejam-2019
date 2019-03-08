@@ -6,6 +6,8 @@ public class EnemyController : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public GameObject deathExplosionPrefab;
+    public AudioClip deathSound;
+    public AudioClip dispatchSound;
     public Transform bulletSpawnPoint;
     // How many bullets are fired per second.
     public float fireRate;
@@ -40,6 +42,7 @@ public class EnemyController : MonoBehaviour
 
     public void Die()
     {
+        PlayDeathSound();
         Instantiate(deathExplosionPrefab,
                     transform.position,
                     transform.rotation);
@@ -53,6 +56,16 @@ public class EnemyController : MonoBehaviour
         Instantiate(bulletPrefab,
                     bulletSpawnPoint.position,
                     bulletSpawnPoint.rotation);
+    }
+
+    void PlayDeathSound()
+    {
+        Utils.GetAudioSource().PlayOneShot(deathSound);
+    }
+
+    public void PlayDispatchSound()
+    {
+        gameObject.GetComponent<AudioSource>().PlayOneShot(dispatchSound);
     }
 
     void ResetTimer()
