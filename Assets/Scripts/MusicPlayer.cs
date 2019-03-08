@@ -5,7 +5,7 @@ using UnityEngine;
 public class MusicPlayer : MonoBehaviour
 {
     public AudioClip musicClip;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +16,7 @@ public class MusicPlayer : MonoBehaviour
     void Update()
     {
         AudioSource audioSource = Utils.GetAudioSource();
-        if (audioSource.isPlaying)
+        if (!audioSource.isPlaying)
         {
             audioSource.PlayOneShot(musicClip);
         }
