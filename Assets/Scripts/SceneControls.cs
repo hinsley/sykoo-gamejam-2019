@@ -8,6 +8,11 @@ public class SceneControls : MonoBehaviour
 
     public bool cursorLocked = true;
 
+    void Start()
+    {
+        Debug.Log("Created!");
+    }
+
     void Update() 
     {
 
@@ -18,6 +23,7 @@ public class SceneControls : MonoBehaviour
         
         if (Input.GetKeyDown (KeyCode.Space))
         {
+            Debug.Log(gameObject.name);
             SceneManager.LoadScene("Main Scene");
         }
         
