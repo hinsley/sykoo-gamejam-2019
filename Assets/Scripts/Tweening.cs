@@ -110,6 +110,11 @@ public class Tweening : MonoBehaviour
         }
     }
 
+    public void DestroyHomeLocation()
+    {
+        GameObject.Destroy(homeLocation);
+    }
+
     void FlyIn()
     {
         inFlyInTransit = true;

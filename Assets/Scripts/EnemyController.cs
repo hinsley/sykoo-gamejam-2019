@@ -44,6 +44,7 @@ public class EnemyController : MonoBehaviour
                     transform.position,
                     transform.rotation);
 
+        gameObject.GetComponent<Tweening>().DestroyHomeLocation();
         GameObject.Destroy(gameObject);
     }
 
