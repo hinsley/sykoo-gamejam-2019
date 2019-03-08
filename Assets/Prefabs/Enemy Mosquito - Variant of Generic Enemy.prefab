@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 860443679403753531, guid: 060973d8e35404240af2eeba9d715408,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Mosquito
+      value: Enemy Mosquito - Variant of Generic Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5617503082875851157, guid: 060973d8e35404240af2eeba9d715408,
         type: 3}
@@ -75,12 +75,12 @@ PrefabInstance:
     - target: {fileID: 257202221081605386, guid: 060973d8e35404240af2eeba9d715408,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 257202221081605386, guid: 060973d8e35404240af2eeba9d715408,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.3
+      value: 0.265
       objectReference: {fileID: 0}
     - target: {fileID: 4638090148190172772, guid: 060973d8e35404240af2eeba9d715408,
         type: 3}
