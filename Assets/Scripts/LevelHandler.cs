@@ -6,6 +6,7 @@ public class LevelHandler : MonoBehaviour
 {
     public GameObject[] levelPrefabs;
     public int nextLevel;
+    public GameObject gameOverUI;
 
     private GameObject currentLevel;
 
@@ -20,6 +21,11 @@ public class LevelHandler : MonoBehaviour
         if (GameObject.Find("Enemies").transform.childCount == 0)
         {
             LoadLevel(nextLevel++ - 1);
+        }
+
+        if (GameObject.FindGameObjectWithTag("Player") == null)
+        {
+            gameOverUI.SetActive(true);
         }
     }
 

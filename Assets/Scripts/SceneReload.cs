@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SceneReload : MonoBehaviour
 {
+    public string mainMenuScene = "StartMenu";
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +17,8 @@ public class SceneReload : MonoBehaviour
     {
         if (Input.GetKeyDown("r"))
         {
-            Application.LoadLevel(Application.loadedLevel);
+            
+            Application.LoadLevel(mainMenuScene);
         }
     }
 }
