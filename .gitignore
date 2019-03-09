@@ -5,6 +5,7 @@ Logs/
 Packages/
 Temp/
 Builds/
+zZ_Builds/
 obj/
 *.csproj
 *.sln
