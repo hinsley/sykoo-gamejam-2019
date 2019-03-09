@@ -17,12 +17,47 @@ public class TimerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeElapsed += Time.deltaTime;
-        SetTimerText(timeElapsed);
+        // If player is alive...
+        if (GameObject.FindGameObjectWithTag("Player") != null)
+        {
+            timeElapsed += Time.deltaTime;
+        }
+
+        // If a full second has passed...
+        if ((timeElapsed - Time.deltaTime) % 1f < timeElapsed % 1f)
+        {
+            SetTimerText();
+        }
     }
 
-    void SetTimerText(float timeSeconds)
+    void SetTimerText()
     {
-        timerTextComponent.text = Mathf.Floor(timeSeconds).ToString();
+        Debug.Log("SetTimerText()");
+        int hours = Mathf.FloorToInt(timeElapsed / (60 * 60));
+        int minutes = Mathf.FloorToInt(timeElapsed % (60 * 60) / 60);
+        int seconds = Mathf.FloorToInt(timeElapsed % 60);
+        timerTextComponent.text = "";
+        
+        if (hours < 10)
+        {
+            timerTextComponent.text += "0";
+        }
+        timerTextComponent.text += hours.ToString();
+
+        timerTextComponent.text += ":";
+
+        if (minutes < 10)
+        {
+            timerTextComponent.text += "0";
+        }
+        timerTextComponent.text += minutes.ToString();
+
+        timerTextComponent.text += ":";
+
+        if (seconds < 10)
+        {
+            timerTextComponent.text += "0";
+        }
+        timerTextComponent.text += seconds.ToString();
     }
 }
