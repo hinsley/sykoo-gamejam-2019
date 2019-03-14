@@ -1470,13 +1470,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelPrefabs:
   - {fileID: 8336185952176959607, guid: 99c6686b6a1714e24b650c9cb0017dbd, type: 3}
-  - {fileID: 6145278074697171681, guid: cb8ac1e1dadf3d647af6e4b52a8df348, type: 3}
+  - {fileID: 8336185952176959607, guid: 113ac05adb387b64eaf7560adb48a872, type: 3}
   nextLevel: 1
   gameOverUI: {fileID: 924594046}
   timeBetweenLevels: 3
   lifeCounter: {fileID: 820686268}
-  playerPrefab: {fileID: 0}
-  playerContainer: {fileID: 476905319}
+  playerContainerPrefab: {fileID: 476905319}
   playerRespawnTime: 3
 --- !u!4 &658478909
 Transform:
