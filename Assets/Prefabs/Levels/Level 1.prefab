@@ -262,11 +262,13 @@ MonoBehaviour:
   - transform: {fileID: 5229397998851380401}
     flySpeed: 2.5
     turnSpeed: 0.05
+    waitTime: 0
     firing: 0
     radius: 0.5
   - transform: {fileID: 1712812506631891068}
     flySpeed: 3.5
     turnSpeed: 0.075
+    waitTime: 0
     firing: 1
     radius: 0.5
 --- !u!1 &868673587356117490
@@ -349,11 +351,13 @@ MonoBehaviour:
   - transform: {fileID: 8336185952360699005}
     flySpeed: 2.5
     turnSpeed: 0.05
+    waitTime: 0
     firing: 0
     radius: 0.5
   - transform: {fileID: 8336185951726228853}
     flySpeed: 3.5
     turnSpeed: 0.075
+    waitTime: 0
     firing: 1
     radius: 0.5
 --- !u!1 &1642772157481630808
@@ -900,16 +904,19 @@ MonoBehaviour:
   - transform: {fileID: 7698451063034687421}
     flySpeed: 5
     turnSpeed: 0.25
+    waitTime: 0
     firing: 0
     radius: 0.5
   - transform: {fileID: 3181228968281874516}
     flySpeed: 5
     turnSpeed: 0.5
+    waitTime: 0
     firing: 0
     radius: 0.5
   - transform: {fileID: 7698451063034687421}
     flySpeed: 3.5
     turnSpeed: 0.25
+    waitTime: 0
     firing: 0
     radius: 0.25
 --- !u!1 &8336185951726228854
@@ -1292,6 +1299,11 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 8336185952176959607}
+    - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 707771617012377951, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: animations.Array.size
@@ -1387,6 +1399,11 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 8336185952176959607}
+    - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 707771617012377951, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: animations.Array.size
@@ -1842,6 +1859,11 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 8336185952176959607}
+    - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 707771617012377951, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: animations.Array.size
@@ -2057,6 +2079,11 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 8336185952176959607}
+    - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 707771617012377951, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: animations.Array.size
@@ -2487,6 +2514,11 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 8336185952176959607}
+    - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 707771617012377951, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: animations.Array.size
@@ -2582,6 +2614,11 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 8336185952176959607}
+    - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 707771617012377951, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: animations.Array.size
@@ -2897,6 +2934,11 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 8336185952176959607}
+    - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 707771617012377951, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: animations.Array.size
@@ -2992,6 +3034,11 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 8336185952176959607}
+    - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 707771617012377951, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: animations.Array.size
@@ -3852,6 +3899,11 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 8336185952176959607}
+    - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 707771617012377951, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: animations.Array.size
@@ -3947,6 +3999,11 @@ PrefabInstance:
       propertyPath: level
       value: 
       objectReference: {fileID: 8336185952176959607}
+    - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
+        type: 3}
+      propertyPath: homecomingCheckpoint.turnSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 707771617012377951, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: animations.Array.size
