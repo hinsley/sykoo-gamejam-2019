@@ -7,12 +7,13 @@ public class LevelHandler : MonoBehaviour
     public GameObject[] levelPrefabs;
     public int nextLevel;
     public GameObject gameOverUI;
+    public float timeBetweenLevels = 0f;
 
     private GameObject currentLevel;
 
     void Awake()
     {
-        LoadLevel(nextLevel++ - 1);
+        Invoke("LoadLevel", timeBetweenLevels);
     }
 
     // Update is called once per frame
@@ -20,7 +21,7 @@ public class LevelHandler : MonoBehaviour
     {
         if (GameObject.Find("Enemies").transform.childCount == 0)
         {
-            LoadLevel(nextLevel++ - 1);
+            Invoke("LoadLevel", timeBetweenLevels);
         }
 
         if (GameObject.FindGameObjectWithTag("Player") == null)
@@ -29,7 +30,7 @@ public class LevelHandler : MonoBehaviour
         }
     }
 
-    void LoadLevel(int levelIndex)
+    void LoadLevel()
     {
         if (currentLevel != null)
         {
@@ -37,7 +38,7 @@ public class LevelHandler : MonoBehaviour
         }
 
         currentLevel = Instantiate(
-            levelPrefabs[levelIndex],
+            levelPrefabs[nextLevel++ - 1],
             new Vector3(0, 5, 0),
             new Quaternion(0, 0, 0, 1)
         );
