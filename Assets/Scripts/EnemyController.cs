@@ -13,8 +13,6 @@ public class EnemyController : MonoBehaviour
     public float fireRate;
     public bool firing = false;
 
-    public float points;
-
     private float firingTimer = 0;
 
     // Start is called before the first frame update
