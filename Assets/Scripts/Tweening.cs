@@ -24,6 +24,7 @@ public class Tweening : MonoBehaviour
     private float flySpeed;
     private float turnSpeed;
     private float timeSinceLastCheckpoint;
+    private bool tweenToCheckpointInvoked = false;
 
     void Awake()
     {
@@ -39,63 +40,66 @@ public class Tweening : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeSinceLastCheckpoint += Time.deltaTime;
+        if (!tweenToCheckpointInvoked)
+        {
+            timeSinceLastCheckpoint += Time.deltaTime;
 
-        // If playing an animation...
-        if (inAnimationTransit)
-        {
-            // If reached checkpoint...
-            if (ReachedCheckpoint(checkpointQueue[currentCheckpointIndex]))
+            // If playing an animation...
+            if (inAnimationTransit && !tweenToCheckpointInvoked)
             {
-                Debug.LogFormat("{0} reached checkpoint {1}.",
-                                gameObject.name,
-                                currentCheckpointIndex + 1);
-                // If reached end of checkpoint queue for the current
-                // animation...
-                if (++currentCheckpointIndex >= checkpointQueue.Length)
+                // If reached checkpoint...
+                if (ReachedCheckpoint(checkpointQueue[currentCheckpointIndex]))
                 {
-                    inAnimationTransit = false;
-                    inHomecomingTransit = true;
-                    inFlyInTransit = false;
-                    gameObject.GetComponent<EnemyController>().firing = false;
-                    targetTransform = homecomingCheckpoint.transform;
-                    flySpeed = homecomingCheckpoint.flySpeed;
-                    turnSpeed = homecomingCheckpoint.turnSpeed;
+                    Debug.LogFormat("{0} reached checkpoint {1}.",
+                                    gameObject.name,
+                                    currentCheckpointIndex + 1);
+                    // If reached end of checkpoint queue for the current
+                    // animation...
+                    if (++currentCheckpointIndex >= checkpointQueue.Length)
+                    {
+                        inAnimationTransit = false;
+                        inHomecomingTransit = true;
+                        inFlyInTransit = false;
+                        gameObject.GetComponent<EnemyController>().firing = false;
+                        targetTransform = homecomingCheckpoint.transform;
+                        flySpeed = homecomingCheckpoint.flySpeed;
+                        turnSpeed = homecomingCheckpoint.turnSpeed;
+                    }
+                    else
+                    {
+                        InvokeTweenToCheckpoint();
+                    }
                 }
-                else
-                {
-                    TweenToCheckpoint(checkpointQueue[currentCheckpointIndex]);
-                }
-            }
-            UpdatePosition();
-            UpdateRotation();
-        }
-        else if (inHomecomingTransit)
-        {
-            if (ReachedCheckpoint(homecomingCheckpoint))
-            {
-                Debug.LogFormat(
-                    "{0} reached home location checkpoint.",
-                    gameObject.name
-                );
-                transform.position = homecomingCheckpoint.transform.position;
-                transform.rotation = homecomingCheckpoint.transform.rotation;
-                inHomecomingTransit = false;
-                animations = gameObject.GetComponentInChildren<TweenAnimationLibrary>().animations;
-                gameObject.GetComponent<AudioSource>().Stop();
-            }
-            else
-            {
                 UpdatePosition();
                 UpdateRotation();
             }
-        }
-        else
-        {
-            // If not done running through current checkpoint queue...
-            if (currentCheckpointIndex < checkpointQueue.Length)
+            else if (inHomecomingTransit)
             {
-                TweenToCheckpoint(checkpointQueue[currentCheckpointIndex]);
+                if (ReachedCheckpoint(homecomingCheckpoint))
+                {
+                    Debug.LogFormat(
+                        "{0} reached home location checkpoint.",
+                        gameObject.name
+                    );
+                    transform.position = homecomingCheckpoint.transform.position;
+                    transform.rotation = homecomingCheckpoint.transform.rotation;
+                    inHomecomingTransit = false;
+                    animations = gameObject.GetComponentInChildren<TweenAnimationLibrary>().animations;
+                    gameObject.GetComponent<AudioSource>().Stop();
+                }
+                else
+                {
+                    UpdatePosition();
+                    UpdateRotation();
+                }
+            }
+            else
+            {
+                // If not done running through current checkpoint queue...
+                if (currentCheckpointIndex < checkpointQueue.Length)
+                {
+                    InvokeTweenToCheckpoint();
+                }
             }
         }
     }
@@ -149,8 +153,20 @@ public class Tweening : MonoBehaviour
         ) < checkpoint.radius;
     }
 
-    void TweenToCheckpoint(TweenAnimationCheckpoint checkpoint)
+    void InvokeTweenToCheckpoint()
     {
+        if (!tweenToCheckpointInvoked)
+        {
+            TweenAnimationCheckpoint checkpoint = checkpointQueue[currentCheckpointIndex];
+            tweenToCheckpointInvoked = true;
+            Invoke("TweenToCheckpoint", checkpoint.waitTime);
+        }
+    }
+
+    void TweenToCheckpoint()
+    {
+        TweenAnimationCheckpoint checkpoint = checkpointQueue[currentCheckpointIndex];
+        tweenToCheckpointInvoked = false;
         targetTransform = checkpoint.transform;
         flySpeed = checkpointQueue[currentCheckpointIndex].flySpeed;
         turnSpeed = checkpointQueue[currentCheckpointIndex].turnSpeed;

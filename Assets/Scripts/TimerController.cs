@@ -32,7 +32,6 @@ public class TimerController : MonoBehaviour
 
     void SetTimerText()
     {
-        Debug.Log("SetTimerText()");
         int hours = Mathf.FloorToInt(timeElapsed / (60 * 60));
         int minutes = Mathf.FloorToInt(timeElapsed % (60 * 60) / 60);
         int seconds = Mathf.FloorToInt(timeElapsed % 60);
