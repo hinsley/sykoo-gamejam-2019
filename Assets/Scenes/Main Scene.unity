@@ -1198,12 +1198,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flickerRate: 3
   flickeringGameObject: {fileID: 1470133367}
---- !u!1 &476905319 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2113742577868534384, guid: 232e5142b78894a97a0e7a25dff6ded4,
-    type: 3}
-  m_PrefabInstance: {fileID: 2113742577929030935}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &501240548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,7 +1469,7 @@ MonoBehaviour:
   gameOverUI: {fileID: 924594046}
   timeBetweenLevels: 3
   lifeCounter: {fileID: 820686268}
-  playerContainerPrefab: {fileID: 476905319}
+  playerContainerPrefab: {fileID: 0}
   playerRespawnTime: 3
 --- !u!4 &658478909
 Transform:
