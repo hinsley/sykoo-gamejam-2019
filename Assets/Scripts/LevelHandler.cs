@@ -8,8 +8,12 @@ public class LevelHandler : MonoBehaviour
     public int nextLevel;
     public GameObject gameOverUI;
     public float timeBetweenLevels = 0f;
+    public GameObject lifeCounter;
+    public GameObject playerContainerPrefab;
+    public float playerRespawnTime;
 
     private GameObject currentLevel;
+    private bool respawningPlayer;
 
     void Awake()
     {
@@ -24,10 +28,26 @@ public class LevelHandler : MonoBehaviour
             Invoke("LoadLevel", timeBetweenLevels);
         }
 
-        if (GameObject.FindGameObjectWithTag("Player") == null)
+        if (GameObject.FindGameObjectWithTag("Player") == null && !respawningPlayer)
         {
-            gameOverUI.SetActive(true);
+            if (lifeCounter.GetComponent<LifeCounter>().livesRemaining-- > 0)
+            {
+                // This is very ugly. Sorry!
+                GameObject.Destroy(GameObject.Find(playerContainerPrefab.name));
+                Invoke("PlayerRespawn", playerRespawnTime);
+                respawningPlayer = true;
+            }
+            else
+            {
+                gameOverUI.SetActive(true);
+            }
         }
+    }
+
+    void PlayerRespawn()
+    {
+        Instantiate(playerContainerPrefab);
+        respawningPlayer = false;
     }
 
     void LoadLevel()
