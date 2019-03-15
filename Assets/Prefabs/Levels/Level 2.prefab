@@ -2927,20 +2927,20 @@ MonoBehaviour:
   checkpoints:
   - transform: {fileID: 2390763360546910087}
     flySpeed: 5
-    turnSpeed: 0.025
+    turnSpeed: 0.1
     waitTime: 0
     firing: 0
     terminal: 0
     radius: 0.5
   - transform: {fileID: 4691082317394427918}
-    flySpeed: 5
+    flySpeed: 2.5
     turnSpeed: 0.1
     waitTime: 0
     firing: 0
     terminal: 0
     radius: 0.5
   - transform: {fileID: 2390763360546910087}
-    flySpeed: 3.5
+    flySpeed: 3
     turnSpeed: 0.1
     waitTime: 0
     firing: 0
@@ -6527,7 +6527,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -6942,7 +6942,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7767,7 +7767,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7872,7 +7872,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7977,7 +7977,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8082,7 +8082,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8627,7 +8627,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8732,7 +8732,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
