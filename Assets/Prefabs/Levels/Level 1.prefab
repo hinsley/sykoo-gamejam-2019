@@ -842,7 +842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65131633ec7d14c218571b2f08a200e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  releaseRate: 2
+  releaseRate: 3
 --- !u!1 &3707704886330780921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,7 +1463,7 @@ MonoBehaviour:
     radius: 0.5
   - transform: {fileID: 3181228968281874516}
     flySpeed: 5
-    turnSpeed: 0.5
+    turnSpeed: 0.75
     waitTime: 0
     firing: 0
     terminal: 0
@@ -2185,7 +2185,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2072443444774974813}
+      objectReference: {fileID: 4754652621124796624}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -2285,7 +2285,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2072443444774974813}
+      objectReference: {fileID: 4754652621124796624}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -2720,7 +2720,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2072443444774974813}
+      objectReference: {fileID: 4754652621124796624}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -3275,7 +3275,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2072443444774974813}
+      objectReference: {fileID: 4754652621124796624}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -3375,7 +3375,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4754652621124796624}
+      objectReference: {fileID: 2072443444774974813}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -3715,7 +3715,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2072443444774974813}
+      objectReference: {fileID: 4754652621124796624}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -3815,7 +3815,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4754652621124796624}
+      objectReference: {fileID: 2072443444774974813}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -4010,7 +4010,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2072443444774974813}
+      objectReference: {fileID: 4754652621124796624}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -4110,7 +4110,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2072443444774974813}
+      objectReference: {fileID: 4754652621124796624}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -4210,7 +4210,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4754652621124796624}
+      objectReference: {fileID: 2072443444774974813}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -4979,7 +4979,7 @@ PrefabInstance:
     - target: {fileID: 6476972446751445190, guid: cd7df4bc87228664ca52962f8fb7be8b,
         type: 3}
       propertyPath: m_Text
-      value: LEVEL 1
+      value: LEVEL 1 TESTING
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd7df4bc87228664ca52962f8fb7be8b, type: 3}
@@ -5060,7 +5060,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4754652621124796624}
+      objectReference: {fileID: 2072443444774974813}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -5400,7 +5400,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4754652621124796624}
+      objectReference: {fileID: 2072443444774974813}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -5500,7 +5500,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4754652621124796624}
+      objectReference: {fileID: 2072443444774974813}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -5600,7 +5600,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4754652621124796624}
+      objectReference: {fileID: 2072443444774974813}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -5820,7 +5820,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2072443444774974813}
+      objectReference: {fileID: 4754652621124796624}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
@@ -5920,7 +5920,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4754652621124796624}
+      objectReference: {fileID: 2072443444774974813}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: level
