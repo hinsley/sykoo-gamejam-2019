@@ -40,18 +40,14 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: d764b072d899c3c4cb2ae593a9543670, type: 3}
-    duration: 3.4
-  - logo: {fileID: 21300000, guid: c1d1c3ab05785374eb8b2e8e9e706e32, type: 3}
+  - logo: {fileID: 21300000, guid: 29d823b6dec04764287355b049680dbf, type: 3}
     duration: 3
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
   - logo: {fileID: 21300000, guid: 5b228376b9bb2844db2e6a1b43461d12, type: 3}
     duration: 2
-  - logo: {fileID: 21300000, guid: d764b072d899c3c4cb2ae593a9543670, type: 3}
-    duration: 2
   - logo: {fileID: 21300000, guid: 168a9d1bf0a86be4eb81bfffbb51b048, type: 3}
-    duration: 3
+    duration: 2
   - logo: {fileID: 21300000, guid: 29d823b6dec04764287355b049680dbf, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 2800000, guid: c1d1c3ab05785374eb8b2e8e9e706e32,
@@ -271,7 +267,7 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
-  resolutionDialogBanner: {fileID: 2800000, guid: c1d1c3ab05785374eb8b2e8e9e706e32,
+  resolutionDialogBanner: {fileID: 2800000, guid: 29d823b6dec04764287355b049680dbf,
     type: 3}
   m_BuildTargetIcons:
   - m_BuildTarget: 
