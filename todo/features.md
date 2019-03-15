@@ -13,15 +13,15 @@
 - [X] Ship controls
 - [ ] **Double enemy points given if killed while in attack mode.**
 - [ ] **Enemies stop attacking after Player dies.**
-- [ ] Player Life Counter
+- [X] Player Life Counter
   - [X] Life Counter Graphics & UI
-  - [ ] Life Counter Tracking System
+  - [X] Life Counter Tracking System
 - [ ] Level Tracking
   - [X] Level Tracking Graphics & UI
   - [ ] Level Tracking System
-- [ ] Time Played *(Timer)* Tracking
+- [X] Time Played *(Timer)* Tracking
   - [X] Time Played Tracking Graphics & UI
-  - [ ] Time Played Tracking System
+  - [X] Time Played Tracking System
 - [X] Ship firing
 - [X] Tweening engine for enemies
 - [X] Levels
