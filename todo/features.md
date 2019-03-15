@@ -34,3 +34,4 @@
 - [X] Fly-in queues
 - [ ] Hijack/Recover mechanic??
 - [ ] Ship warp drive mechanic
+- [ ] Cursor lock when player clicks in game
