@@ -687,7 +687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &260460349
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2711,7 +2711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1053524886
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2919,7 +2919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1106833563
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3517,7 +3517,7 @@ MonoBehaviour:
   bulletSpawnPoint: {fileID: 177567524}
   leftBoundary: {fileID: 830321137}
   rightBoundary: {fileID: 642450540}
-  deathSound: {fileID: 8300000, guid: fd093e4d1ee63ae498afc6582e736a43, type: 3}
+  deathSound: {fileID: 8300000, guid: 8df917180598d2f4a9cb0c14e3e3c48c, type: 3}
 --- !u!60 &1260349828
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4764,7 +4764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1746506423
 RectTransform:
   m_ObjectHideFlags: 0

@@ -351,7 +351,7 @@ MonoBehaviour:
   - transform: {fileID: 8336185952360699005}
     flySpeed: 2.5
     turnSpeed: 0.05
-    waitTime: 10
+    waitTime: 0
     firing: 0
     radius: 0.5
   - transform: {fileID: 8336185951726228853}
@@ -1016,7 +1016,7 @@ GameObject:
   - component: {fileID: 8336185952176959606}
   - component: {fileID: 5539233427721694953}
   m_Layer: 0
-  m_Name: Level 1
+  m_Name: Level 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1519,11 +1519,6 @@ PrefabInstance:
       propertyPath: homecomingCheckpoint.radius
       value: 0.33
       objectReference: {fileID: 0}
-    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
-        type: 3}
-      propertyPath: homecomingCheckpoint.waitTime
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_TagString
@@ -1763,11 +1758,6 @@ PrefabInstance:
         type: 3}
       propertyPath: homecomingCheckpoint.radius
       value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
-        type: 3}
-      propertyPath: homecomingCheckpoint.waitTime
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
@@ -2309,11 +2299,6 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2072443444774974813}
-    - target: {fileID: 7445860668321712658, guid: 30e57f69b221b4fc7a2cf15173c75882,
-        type: 3}
-      propertyPath: homecomingCheckpoint.waitTime
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5090698035080081663, guid: 30e57f69b221b4fc7a2cf15173c75882,
         type: 3}
       propertyPath: animations.Array.size
@@ -2428,11 +2413,6 @@ PrefabInstance:
         type: 3}
       propertyPath: homecomingCheckpoint.radius
       value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
-        type: 3}
-      propertyPath: homecomingCheckpoint.waitTime
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
@@ -2734,11 +2714,6 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2072443444774974813}
-    - target: {fileID: 7445860668321712658, guid: 30e57f69b221b4fc7a2cf15173c75882,
-        type: 3}
-      propertyPath: homecomingCheckpoint.waitTime
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5090698035080081663, guid: 30e57f69b221b4fc7a2cf15173c75882,
         type: 3}
       propertyPath: animations.Array.size
@@ -2873,6 +2848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476972446751445190, guid: cd7df4bc87228664ca52962f8fb7be8b,
+        type: 3}
+      propertyPath: m_Text
+      value: LEVEL 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd7df4bc87228664ca52962f8fb7be8b, type: 3}
@@ -3159,11 +3139,6 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2072443444774974813}
-    - target: {fileID: 7445860668321712658, guid: 30e57f69b221b4fc7a2cf15173c75882,
-        type: 3}
-      propertyPath: homecomingCheckpoint.waitTime
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5090698035080081663, guid: 30e57f69b221b4fc7a2cf15173c75882,
         type: 3}
       propertyPath: animations.Array.size
@@ -3379,11 +3354,6 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2072443444774974813}
-    - target: {fileID: 7445860668321712658, guid: 30e57f69b221b4fc7a2cf15173c75882,
-        type: 3}
-      propertyPath: homecomingCheckpoint.waitTime
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5090698035080081663, guid: 30e57f69b221b4fc7a2cf15173c75882,
         type: 3}
       propertyPath: animations.Array.size
@@ -3499,11 +3469,6 @@ PrefabInstance:
       propertyPath: homecomingCheckpoint.radius
       value: 0.33
       objectReference: {fileID: 0}
-    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
-        type: 3}
-      propertyPath: homecomingCheckpoint.waitTime
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
       propertyPath: m_TagString
@@ -3604,11 +3569,6 @@ PrefabInstance:
       propertyPath: flyInSpawner
       value: 
       objectReference: {fileID: 2072443444774974813}
-    - target: {fileID: 7445860668321712658, guid: 30e57f69b221b4fc7a2cf15173c75882,
-        type: 3}
-      propertyPath: homecomingCheckpoint.waitTime
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5090698035080081663, guid: 30e57f69b221b4fc7a2cf15173c75882,
         type: 3}
       propertyPath: animations.Array.size
@@ -3843,11 +3803,6 @@ PrefabInstance:
         type: 3}
       propertyPath: homecomingCheckpoint.radius
       value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 9145418957234944313, guid: 39cc3cda18f1244feabac945653e5ce1,
-        type: 3}
-      propertyPath: homecomingCheckpoint.waitTime
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5031792865471197475, guid: 39cc3cda18f1244feabac945653e5ce1,
         type: 3}
