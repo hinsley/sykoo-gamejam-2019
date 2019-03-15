@@ -26,7 +26,7 @@
 - [X] Ship firing
 - [X] Tweening engine for enemies
 - [X] Levels
-- [ ] Level loader **Complete?**
+- [X] Level loader 
 - [X] Sounds
 - [X] Auto-fire
 - [X] Deaths and explosions for enemies and player
