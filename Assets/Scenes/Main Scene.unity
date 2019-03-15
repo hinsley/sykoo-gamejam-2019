@@ -123,9 +123,10 @@ GameObject:
   - component: {fileID: 30381578}
   - component: {fileID: 30381580}
   - component: {fileID: 30381579}
+  - component: {fileID: 30381581}
   m_Layer: 5
   m_Name: TEXT_1UP_Score
-  m_TagString: Untagged
+  m_TagString: ScoreDisplay
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,6 +192,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30381577}
   m_CullTransparentMesh: 0
+--- !u!114 &30381581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30381577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894007c4a5db443458a50e4f5cefd806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  digits: 6
 --- !u!1 &37268305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,12 +1212,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flickerRate: 3
   flickeringGameObject: {fileID: 1470133367}
---- !u!1 &476905319 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2113742577868534384, guid: 232e5142b78894a97a0e7a25dff6ded4,
-    type: 3}
-  m_PrefabInstance: {fileID: 2113742577929030935}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &501240548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,8 +1483,8 @@ MonoBehaviour:
   gameOverUI: {fileID: 924594046}
   timeBetweenLevels: 3
   lifeCounter: {fileID: 820686268}
-  playerPrefab: {fileID: 0}
-  playerContainer: {fileID: 476905319}
+  playerContainerPrefab: {fileID: 2113742577868534384, guid: 232e5142b78894a97a0e7a25dff6ded4,
+    type: 3}
   playerRespawnTime: 3
 --- !u!4 &658478909
 Transform:
@@ -3657,6 +3665,7 @@ GameObject:
   - component: {fileID: 1542309929}
   - component: {fileID: 1542309931}
   - component: {fileID: 1542309930}
+  - component: {fileID: 1542309932}
   m_Layer: 5
   m_Name: TEXT_HighScore_Score
   m_TagString: Untagged
@@ -3725,6 +3734,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542309928}
   m_CullTransparentMesh: 0
+--- !u!114 &1542309932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542309928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbc0478897f4423bb6574c9080c48e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreDisplay: {fileID: 30381577}
+  digits: 6
 --- !u!1 &1575013701
 GameObject:
   m_ObjectHideFlags: 0

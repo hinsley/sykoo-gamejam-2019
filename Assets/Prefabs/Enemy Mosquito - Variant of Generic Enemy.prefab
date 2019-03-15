@@ -67,22 +67,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4638090148190172772, guid: 060973d8e35404240af2eeba9d715408,
+    - target: {fileID: 2266722472808865183, guid: 060973d8e35404240af2eeba9d715408,
         type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 1b5120a19f91e7747b8c16bd6c9fbccf,
-        type: 3}
-    - target: {fileID: 4638090148190172772, guid: 060973d8e35404240af2eeba9d715408,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
+      propertyPath: homecomingCheckpoint.flySpeed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3205789597541985542, guid: 060973d8e35404240af2eeba9d715408,
         type: 3}
       propertyPath: bulletSpawnPoint
       value: 
       objectReference: {fileID: 6075075693282174598}
+    - target: {fileID: 3205789597541985542, guid: 060973d8e35404240af2eeba9d715408,
+        type: 3}
+      propertyPath: killScore
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 257202221081605386, guid: 060973d8e35404240af2eeba9d715408,
         type: 3}
       propertyPath: m_Size.x
@@ -93,10 +92,16 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.265
       objectReference: {fileID: 0}
-    - target: {fileID: 2266722472808865183, guid: 060973d8e35404240af2eeba9d715408,
+    - target: {fileID: 4638090148190172772, guid: 060973d8e35404240af2eeba9d715408,
         type: 3}
-      propertyPath: homecomingCheckpoint.flySpeed
-      value: 7
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1b5120a19f91e7747b8c16bd6c9fbccf,
+        type: 3}
+    - target: {fileID: 4638090148190172772, guid: 060973d8e35404240af2eeba9d715408,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 060973d8e35404240af2eeba9d715408, type: 3}

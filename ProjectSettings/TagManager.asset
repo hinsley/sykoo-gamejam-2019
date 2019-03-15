@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - AudioSource
   - BulletSpawnPoint
+  - ScoreDisplay
   layers:
   - Default
   - TransparentFX

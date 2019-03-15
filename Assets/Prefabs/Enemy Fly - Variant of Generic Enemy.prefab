@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: bulletSpawnPoint
       value: 
       objectReference: {fileID: 5616285476029945261}
+    - target: {fileID: 3205789597541985542, guid: 060973d8e35404240af2eeba9d715408,
+        type: 3}
+      propertyPath: killScore
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 257202221081605386, guid: 060973d8e35404240af2eeba9d715408,
         type: 3}
       propertyPath: m_Size.x

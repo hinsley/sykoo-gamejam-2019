@@ -12,13 +12,15 @@ public class EnemyController : MonoBehaviour
     // How many bullets are fired per second.
     public float fireRate;
     public bool firing = false;
+    public int killScore;
 
-    private float firingTimer = 0;
+    float firingTimer = 0;
+    GameObject scoreDisplay;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        scoreDisplay = GameObject.FindGameObjectWithTag("ScoreDisplay");
     }
 
     // Update is called once per frame
@@ -46,6 +48,13 @@ public class EnemyController : MonoBehaviour
         Instantiate(deathExplosionPrefab,
                     transform.position,
                     transform.rotation);
+
+        Tweening tweening = gameObject.GetComponent<Tweening>();
+        bool inTransit = tweening.inAnimationTransit ||
+                         tweening.inFlyInTransit ||
+                         tweening.inHomecomingTransit;
+        
+        scoreDisplay.GetComponent<ScoreDisplay>().score += (inTransit ? killScore * 2 : killScore);
 
         gameObject.GetComponent<Tweening>().DestroyHomeLocation();
         GameObject.Destroy(gameObject);

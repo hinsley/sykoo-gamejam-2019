@@ -12,12 +12,14 @@ public class LevelHandler : MonoBehaviour
     public GameObject playerContainerPrefab;
     public float playerRespawnTime;
 
-    private GameObject currentLevel;
-    private bool respawningPlayer;
+    GameObject currentLevel;
+    bool respawningPlayer;
+    bool loadingLevel;
 
     void Awake()
     {
         Invoke("LoadLevel", timeBetweenLevels);
+        loadingLevel = true;
     }
 
     // Update is called once per frame
@@ -26,6 +28,7 @@ public class LevelHandler : MonoBehaviour
         if (GameObject.Find("Enemies").transform.childCount == 0)
         {
             Invoke("LoadLevel", timeBetweenLevels);
+            loadingLevel = true;
         }
 
         if (GameObject.FindGameObjectWithTag("Player") == null && !respawningPlayer)
@@ -52,15 +55,21 @@ public class LevelHandler : MonoBehaviour
 
     void LoadLevel()
     {
-        if (currentLevel != null)
+        if (loadingLevel)
         {
-            GameObject.Destroy(currentLevel);
-        }
+            if (currentLevel != null)
+            {
+                GameObject.Destroy(currentLevel);
+            }
 
-        currentLevel = Instantiate(
-            levelPrefabs[nextLevel++ - 1],
-            new Vector3(0, 5, 0),
-            new Quaternion(0, 0, 0, 1)
-        );
+            Debug.Log(levelPrefabs[nextLevel - 1].name);
+            currentLevel = Instantiate(
+                levelPrefabs[nextLevel++ - 1],
+                new Vector3(0, 5, 0),
+                new Quaternion(0, 0, 0, 1)
+            );
+            
+            loadingLevel = false;
+        }
     }
 }
