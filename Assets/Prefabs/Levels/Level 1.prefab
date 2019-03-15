@@ -264,12 +264,14 @@ MonoBehaviour:
     turnSpeed: 0.05
     waitTime: 0
     firing: 0
+    terminal: 0
     radius: 0.5
   - transform: {fileID: 1712812506631891068}
     flySpeed: 3.5
     turnSpeed: 0.075
     waitTime: 0
     firing: 1
+    terminal: 0
     radius: 0.5
 --- !u!1 &868673587356117490
 GameObject:
@@ -353,12 +355,14 @@ MonoBehaviour:
     turnSpeed: 0.05
     waitTime: 0
     firing: 0
+    terminal: 0
     radius: 0.5
   - transform: {fileID: 8336185951726228853}
     flySpeed: 3.5
     turnSpeed: 0.075
     waitTime: 0
     firing: 1
+    terminal: 0
     radius: 0.5
 --- !u!1 &1642772157481630808
 GameObject:
@@ -906,18 +910,21 @@ MonoBehaviour:
     turnSpeed: 0.25
     waitTime: 0
     firing: 0
+    terminal: 0
     radius: 0.5
   - transform: {fileID: 3181228968281874516}
     flySpeed: 5
     turnSpeed: 0.5
     waitTime: 0
     firing: 0
+    terminal: 0
     radius: 0.5
   - transform: {fileID: 7698451063034687421}
     flySpeed: 3.5
     turnSpeed: 0.25
     waitTime: 0
     firing: 0
+    terminal: 0
     radius: 0.25
 --- !u!1 &8336185951726228854
 GameObject:

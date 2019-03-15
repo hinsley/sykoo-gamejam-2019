@@ -42,19 +42,22 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    public void Die()
+    public void Die(bool killedByPlayer=true)
     {
-        PlayDeathSound();
-        Instantiate(deathExplosionPrefab,
-                    transform.position,
-                    transform.rotation);
+        if (killedByPlayer)
+        {
+            PlayDeathSound();
+            Instantiate(deathExplosionPrefab,
+                        transform.position,
+                        transform.rotation);
 
-        Tweening tweening = gameObject.GetComponent<Tweening>();
-        bool inTransit = tweening.inAnimationTransit ||
-                         tweening.inFlyInTransit ||
-                         tweening.inHomecomingTransit;
-        
-        scoreDisplay.GetComponent<ScoreDisplay>().score += (inTransit ? killScore * 2 : killScore);
+            Tweening tweening = gameObject.GetComponent<Tweening>();
+            bool inTransit = tweening.inAnimationTransit ||
+                            tweening.inFlyInTransit ||
+                            tweening.inHomecomingTransit;
+            
+            scoreDisplay.GetComponent<ScoreDisplay>().score += (inTransit ? killScore * 2 : killScore);
+        }
 
         gameObject.GetComponent<Tweening>().DestroyHomeLocation();
         GameObject.Destroy(gameObject);

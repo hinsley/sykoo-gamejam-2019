@@ -53,6 +53,13 @@ public class Tweening : MonoBehaviour
                     Debug.LogFormat("{0} reached checkpoint {1}.",
                                     gameObject.name,
                                     currentCheckpointIndex + 1);
+                    
+                    if (checkpointQueue[currentCheckpointIndex].terminal)
+                    {
+                        gameObject.GetComponent<EnemyController>().Die(false);
+                        return;
+                    }
+
                     // If reached end of checkpoint queue for the current
                     // animation...
                     if (++currentCheckpointIndex >= checkpointQueue.Length)
