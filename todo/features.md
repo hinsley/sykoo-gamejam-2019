@@ -1,7 +1,7 @@
 # Features
 
 - [X] 32x32 Logo/Icon
-- [ ] Name
+- [X] Name
 - [X] Menus
   - [X] Main menu *(Press A to start)*
   - [X] Gameplay UI
@@ -13,6 +13,7 @@
 - [X] Ship controls
 - [ ] **Double enemy points given if killed while in attack mode.**
 - [ ] **Enemies stop attacking after Player dies.**
+- [ ] **Enemies always attack if (Enemy<4) left in formation.**
 - [X] Player Life Counter
   - [X] Life Counter Graphics & UI
   - [X] Life Counter Tracking System
@@ -33,4 +34,3 @@
 - [X] Fly-in queues
 - [ ] Hijack/Recover mechanic??
 - [ ] Ship warp drive mechanic
-- [ ] Speed up Player1 fire rate slightly
