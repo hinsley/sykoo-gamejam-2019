@@ -2852,7 +2852,7 @@ PrefabInstance:
     - target: {fileID: 6476972446751445190, guid: cd7df4bc87228664ca52962f8fb7be8b,
         type: 3}
       propertyPath: m_Text
-      value: LEVEL 1.5
+      value: LEVEL 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd7df4bc87228664ca52962f8fb7be8b, type: 3}
