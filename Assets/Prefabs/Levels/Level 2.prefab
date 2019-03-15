@@ -172,7 +172,7 @@ MonoBehaviour:
     terminal: 0
     radius: 0.33
   level: {fileID: 6145278074697171681}
-  flyInSpawner: {fileID: 429279430545540625}
+  flyInSpawner: {fileID: 4426062546712938445}
 --- !u!61 &9091301276129220541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -422,7 +422,7 @@ MonoBehaviour:
     terminal: 0
     radius: 0.33
   level: {fileID: 6145278074697171681}
-  flyInSpawner: {fileID: 429279430545540625}
+  flyInSpawner: {fileID: 4426062546712938445}
 --- !u!61 &7204785692693137004
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -574,7 +574,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131911553373012929}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.75, y: 3, z: 0}
+  m_LocalPosition: {x: -1.25, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5505065879005905295}
@@ -672,7 +672,7 @@ MonoBehaviour:
     terminal: 0
     radius: 0.33
   level: {fileID: 6145278074697171681}
-  flyInSpawner: {fileID: 429279430545540625}
+  flyInSpawner: {fileID: 4426062546712938445}
 --- !u!61 &3727560911488642187
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ GameObject:
   - component: {fileID: 5777489933446761846}
   - component: {fileID: 5007884917744909948}
   m_Layer: 0
-  m_Name: Left
+  m_Name: Left 1
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -926,6 +926,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44ebc59915ce147d4a861dad83861bde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &748388041483370572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7754827239851304168}
+  - component: {fileID: 3590849674415157910}
+  m_Layer: 0
+  m_Name: Animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7754827239851304168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748388041483370572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8086503025447257520}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3590849674415157910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748388041483370572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742f19e62e269490b8ea30159936b071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animations:
+  - {fileID: 6776776361229440120}
 --- !u!1 &766656077856432226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,13 +1059,16 @@ Transform:
   - {fileID: 6250086722935283428}
   - {fileID: 7751552187217733390}
   - {fileID: 3171143320094851951}
-  - {fileID: 5902422131953893968}
-  - {fileID: 4836964255253945432}
   - {fileID: 4810051717222937725}
   - {fileID: 9205810713017512207}
   - {fileID: 1447068263223469817}
   - {fileID: 6446791232161482914}
   - {fileID: 1159962694187881523}
+  - {fileID: 9092139404771570138}
+  - {fileID: 147350687789101819}
+  - {fileID: 4414734505329295595}
+  - {fileID: 5902422131953893968}
+  - {fileID: 4836964255253945432}
   - {fileID: 5208240803701981689}
   - {fileID: 5795273996686301036}
   - {fileID: 3555006504657059473}
@@ -1029,9 +1077,6 @@ Transform:
   - {fileID: 8678990521764625328}
   - {fileID: 4738157674954590651}
   - {fileID: 5026380800117568854}
-  - {fileID: 9092139404771570138}
-  - {fileID: 147350687789101819}
-  - {fileID: 4414734505329295595}
   - {fileID: 7023351369280414450}
   - {fileID: 8865781538594329466}
   - {fileID: 8938676378592761831}
@@ -1175,7 +1220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animations:
-  - {fileID: 5058216304432007895}
+  - {fileID: 7424081879068503672}
 --- !u!1 &1552020859929858232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1530,7 +1575,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014689273608389695}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 2.5, z: 0}
+  m_LocalPosition: {x: 0.75, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2985315037842665459}
@@ -1869,8 +1914,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9026468385941214559}
-  - {fileID: 533762271559803956}
   - {fileID: 8284102702526777135}
+  - {fileID: 533762271559803956}
+  - {fileID: 4967022619563658948}
+  - {fileID: 4256872401285645143}
+  - {fileID: 349934475235256551}
+  - {fileID: 2332545893803758510}
   m_Father: {fileID: 2748179417461564409}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1918,7 +1967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animations:
-  - {fileID: 5058216304432007895}
+  - {fileID: 7947173574570288289}
 --- !u!1 &2212389550641692861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,7 +2080,7 @@ GameObject:
   - component: {fileID: 2118037596909568780}
   - component: {fileID: 1019566711373915263}
   m_Layer: 0
-  m_Name: TOPPYTop
+  m_Name: TOPPYTop 3
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -2045,7 +2094,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2300549264489881248}
   m_LocalRotation: {x: -0, y: -0, z: -0.70710576, w: 0.70710784}
-  m_LocalPosition: {x: 0, y: 22, z: 0}
+  m_LocalPosition: {x: 0, y: 7.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7496111207297215118}
@@ -2095,6 +2144,8 @@ Transform:
   - {fileID: 5777489933446761846}
   - {fileID: 7244821641956806808}
   - {fileID: 2118037596909568780}
+  - {fileID: 4346878510769534346}
+  - {fileID: 8086503025447257520}
   m_Father: {fileID: 2748179417461564409}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2143,7 +2194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemiesContainer: {fileID: 1003114042161096007}
   flyInSpawnerContainer: {fileID: 2558242633630815775}
-  dispatchInterval: 5.5
+  dispatchInterval: 7.5
   maxEnemiesPerDispatch: 3
 --- !u!1 &2709735623682970522
 GameObject:
@@ -2513,6 +2564,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animations:
   - {fileID: 4145530071829582599}
+--- !u!1 &3105583087595585937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6927541011670420977}
+  - component: {fileID: 5589508688885151907}
+  m_Layer: 0
+  m_Name: Animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6927541011670420977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3105583087595585937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4346878510769534346}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5589508688885151907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3105583087595585937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742f19e62e269490b8ea30159936b071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animations:
+  - {fileID: 8315747132489148204}
 --- !u!1 &3167852382997618230
 GameObject:
   m_ObjectHideFlags: 0
@@ -2588,6 +2684,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animations:
   - {fileID: 4145530071829582599}
+--- !u!1 &3515624223318382357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4967022619563658948}
+  - component: {fileID: 7947173574570288289}
+  m_Layer: 0
+  m_Name: Single-Looping Fly-In Animation Wave (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4967022619563658948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3515624223318382357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8350536381976399796}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7947173574570288289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3515624223318382357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998cd33d244f648eb9dddcfadbe2a0ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpoints:
+  - transform: {fileID: 2390763360546910087}
+    flySpeed: 5
+    turnSpeed: 0.1
+    waitTime: 5
+    firing: 0
+    terminal: 0
+    radius: 0.5
+  - transform: {fileID: 4691082317394427918}
+    flySpeed: 3
+    turnSpeed: 0.1
+    waitTime: 0
+    firing: 0
+    terminal: 0
+    radius: 0.5
+  - transform: {fileID: 2390763360546910087}
+    flySpeed: 3
+    turnSpeed: 0.1
+    waitTime: 0
+    firing: 0
+    terminal: 0
+    radius: 0.25
 --- !u!1 &3532033081239218858
 GameObject:
   m_ObjectHideFlags: 0
@@ -2715,7 +2876,7 @@ MonoBehaviour:
     terminal: 0
     radius: 0.33
   level: {fileID: 6145278074697171681}
-  flyInSpawner: {fileID: 429279430545540625}
+  flyInSpawner: {fileID: 4426062546712938445}
 --- !u!61 &9172062043642882225
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2892,7 +3053,7 @@ GameObject:
   - component: {fileID: 533762271559803956}
   - component: {fileID: 5058216304432007895}
   m_Layer: 0
-  m_Name: Single-Looping Fly-In Animation
+  m_Name: Single-Looping Fly-In Animation Wave (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2910,7 +3071,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8350536381976399796}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5058216304432007895
 MonoBehaviour:
@@ -2933,7 +3094,7 @@ MonoBehaviour:
     terminal: 0
     radius: 0.5
   - transform: {fileID: 4691082317394427918}
-    flySpeed: 2.5
+    flySpeed: 3
     turnSpeed: 0.1
     waitTime: 0
     firing: 0
@@ -3086,7 +3247,7 @@ GameObject:
   - component: {fileID: 7244821641956806808}
   - component: {fileID: 6094230917833386443}
   m_Layer: 0
-  m_Name: Right
+  m_Name: Right 2
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3114,6 +3275,51 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4426062546712938445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65131633ec7d14c218571b2f08a200e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  releaseRate: 5
+--- !u!1 &4588770759043989216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4346878510769534346}
+  - component: {fileID: 5143781079506236561}
+  m_Layer: 0
+  m_Name: Left_Secondary 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4346878510769534346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4588770759043989216}
+  m_LocalRotation: {x: -0, y: -0, z: -0.70710576, w: 0.70710784}
+  m_LocalPosition: {x: -6, y: -3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6927541011670420977}
+  m_Father: {fileID: 6274375903501054819}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.00001}
+--- !u!114 &5143781079506236561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4588770759043989216}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65131633ec7d14c218571b2f08a200e5, type: 3}
@@ -3474,7 +3680,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4924344184231867162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.25, y: 3, z: 0}
+  m_LocalPosition: {x: -0.75, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7548781381123789203}
@@ -3572,7 +3778,7 @@ MonoBehaviour:
     terminal: 0
     radius: 0.33
   level: {fileID: 6145278074697171681}
-  flyInSpawner: {fileID: 429279430545540625}
+  flyInSpawner: {fileID: 4426062546712938445}
 --- !u!61 &5214772491061511535
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3695,6 +3901,51 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &5335306770098447835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8086503025447257520}
+  - component: {fileID: 5654398974457453377}
+  m_Layer: 0
+  m_Name: Right_Secondary 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8086503025447257520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335306770098447835}
+  m_LocalRotation: {x: -0, y: -0, z: 0.70706344, w: 0.7071501}
+  m_LocalPosition: {x: 6, y: -3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7754827239851304168}
+  m_Father: {fileID: 6274375903501054819}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.993004}
+--- !u!114 &5654398974457453377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5335306770098447835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65131633ec7d14c218571b2f08a200e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  releaseRate: 5
 --- !u!1 &5853144847658612457
 GameObject:
   m_ObjectHideFlags: 0
@@ -3724,7 +3975,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5853144847658612457}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.75, y: 2.5, z: 0}
+  m_LocalPosition: {x: 1.25, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5913768239926025596}
@@ -4124,7 +4375,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6314879118730256033}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.75, y: 3, z: 0}
+  m_LocalPosition: {x: 0.25, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7086497369355598949}
@@ -4222,7 +4473,7 @@ MonoBehaviour:
     terminal: 0
     radius: 0.33
   level: {fileID: 6145278074697171681}
-  flyInSpawner: {fileID: 429279430545540625}
+  flyInSpawner: {fileID: 4426062546712938445}
 --- !u!61 &2237585523956772285
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4345,6 +4596,136 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &6316268721070304963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349934475235256551}
+  - component: {fileID: 8315747132489148204}
+  m_Layer: 0
+  m_Name: Single-Looping Fly-In Animation Wave (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &349934475235256551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6316268721070304963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8350536381976399796}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8315747132489148204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6316268721070304963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998cd33d244f648eb9dddcfadbe2a0ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpoints:
+  - transform: {fileID: 2390763360546910087}
+    flySpeed: 5
+    turnSpeed: 0.1
+    waitTime: 14
+    firing: 0
+    terminal: 0
+    radius: 0.5
+  - transform: {fileID: 4691082317394427918}
+    flySpeed: 3
+    turnSpeed: 0.1
+    waitTime: 0
+    firing: 0
+    terminal: 0
+    radius: 0.5
+  - transform: {fileID: 2390763360546910087}
+    flySpeed: 3
+    turnSpeed: 0.1
+    waitTime: 0
+    firing: 0
+    terminal: 0
+    radius: 0.25
+--- !u!1 &6501327905123026238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2332545893803758510}
+  - component: {fileID: 6776776361229440120}
+  m_Layer: 0
+  m_Name: Single-Looping Fly-In Animation Wave (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2332545893803758510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6501327905123026238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8350536381976399796}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6776776361229440120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6501327905123026238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998cd33d244f648eb9dddcfadbe2a0ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpoints:
+  - transform: {fileID: 2390763360546910087}
+    flySpeed: 5
+    turnSpeed: 0.1
+    waitTime: 19
+    firing: 0
+    terminal: 0
+    radius: 0.5
+  - transform: {fileID: 4691082317394427918}
+    flySpeed: 3
+    turnSpeed: 0.1
+    waitTime: 0
+    firing: 0
+    terminal: 0
+    radius: 0.5
+  - transform: {fileID: 2390763360546910087}
+    flySpeed: 3
+    turnSpeed: 0.1
+    waitTime: 0
+    firing: 1
+    terminal: 0
+    radius: 0.25
 --- !u!1 &6612328133430312862
 GameObject:
   m_ObjectHideFlags: 0
@@ -4517,7 +4898,7 @@ MonoBehaviour:
     terminal: 0
     radius: 0.33
   level: {fileID: 6145278074697171681}
-  flyInSpawner: {fileID: 429279430545540625}
+  flyInSpawner: {fileID: 4426062546712938445}
 --- !u!61 &7131763535885513501
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5041,7 +5422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7711226621290250680}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.25, y: 2.5, z: 0}
+  m_LocalPosition: {x: 1.75, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7246024952381173902}
@@ -5305,6 +5686,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44ebc59915ce147d4a861dad83861bde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &8004465847593474720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4256872401285645143}
+  - component: {fileID: 7424081879068503672}
+  m_Layer: 0
+  m_Name: Single-Looping Fly-In Animation Wave (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4256872401285645143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8004465847593474720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8350536381976399796}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7424081879068503672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8004465847593474720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998cd33d244f648eb9dddcfadbe2a0ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpoints:
+  - transform: {fileID: 2390763360546910087}
+    flySpeed: 5
+    turnSpeed: 0.1
+    waitTime: 9
+    firing: 0
+    terminal: 0
+    radius: 0.5
+  - transform: {fileID: 4691082317394427918}
+    flySpeed: 2.5
+    turnSpeed: 0.075
+    waitTime: 0
+    firing: 1
+    terminal: 0
+    radius: 0.5
 --- !u!1 &8006431409973447676
 GameObject:
   m_ObjectHideFlags: 0
@@ -5377,7 +5816,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8350536381976399796}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6839249630401583002
 MonoBehaviour:
@@ -6223,7 +6662,7 @@ MonoBehaviour:
     terminal: 0
     radius: 0.33
   level: {fileID: 6145278074697171681}
-  flyInSpawner: {fileID: 429279430545540625}
+  flyInSpawner: {fileID: 4426062546712938445}
 --- !u!61 &4993987769321878481
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6361,12 +6800,12 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.25
+      value: -1.25
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -6422,7 +6861,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 5335306770098447835}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -6466,12 +6905,12 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.75
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -6501,7 +6940,7 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -6527,7 +6966,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2300549264489881248}
+      objectReference: {fileID: 4588770759043989216}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -6571,12 +7010,12 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.75
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -6632,7 +7071,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 5335306770098447835}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -6711,7 +7150,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -6737,7 +7176,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 8376947403996145257, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -6776,12 +7215,12 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.75
+      value: -1.75
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -6837,7 +7276,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 5335306770098447835}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -6881,12 +7320,12 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.25
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -6916,7 +7355,7 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -6942,7 +7381,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2300549264489881248}
+      objectReference: {fileID: 4588770759043989216}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7021,7 +7460,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -7047,7 +7486,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 8376947403996145257, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7121,7 +7560,7 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -7147,7 +7586,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 4588770759043989216}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7226,7 +7665,7 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -7252,7 +7691,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 4588770759043989216}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7296,7 +7735,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.75
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -7331,7 +7770,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -7357,7 +7796,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 8376947403996145257, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7431,7 +7870,7 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -7457,7 +7896,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 4588770759043989216}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7501,7 +7940,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.25
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -7536,7 +7975,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -7562,7 +8001,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 8376947403996145257, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7636,7 +8075,7 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -7662,7 +8101,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 4588770759043989216}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7741,7 +8180,7 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -7767,7 +8206,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2300549264489881248}
+      objectReference: {fileID: 5335306770098447835}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7846,7 +8285,7 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -7872,7 +8311,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2300549264489881248}
+      objectReference: {fileID: 5335306770098447835}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -7977,7 +8416,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2300549264489881248}
+      objectReference: {fileID: 5335306770098447835}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8082,7 +8521,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2300549264489881248}
+      objectReference: {fileID: 5335306770098447835}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8296,7 +8735,7 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -8322,7 +8761,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 4588770759043989216}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8366,7 +8805,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.75
+      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -8401,7 +8840,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -8427,7 +8866,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 8376947403996145257, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8501,7 +8940,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -8527,7 +8966,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 8376947403996145257, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8627,7 +9066,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2300549264489881248}
+      objectReference: {fileID: 5335306770098447835}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8671,12 +9110,12 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.75
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -8706,7 +9145,7 @@ PrefabInstance:
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 8836678058520141752, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
@@ -8732,7 +9171,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 2300549264489881248}
+      objectReference: {fileID: 4588770759043989216}
     - target: {fileID: 2891956094786343858, guid: b16c7010be4e97b46b6a76159f0cbfe1,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8811,7 +9250,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -8837,7 +9276,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 8376947403996145257, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
@@ -8876,7 +9315,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.25
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -8911,7 +9350,7 @@ PrefabInstance:
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2792372614805514851, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
@@ -8937,7 +9376,7 @@ PrefabInstance:
         type: 3}
       propertyPath: flyInSpawner
       value: 
-      objectReference: {fileID: 4426062546712938445}
+      objectReference: {fileID: 2300549264489881248}
     - target: {fileID: 8376947403996145257, guid: c10dafa7fb7b34f0b9ae1c1401044bfc,
         type: 3}
       propertyPath: homecomingCheckpoint.turnSpeed
