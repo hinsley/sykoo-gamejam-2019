@@ -1477,7 +1477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelPrefabs:
-  - {fileID: 8336185952176959607, guid: 99c6686b6a1714e24b650c9cb0017dbd, type: 3}
+  - {fileID: 8336185952176959607, guid: 77d8da7910c633f45901b9b3add2b969, type: 3}
   - {fileID: 6145278074697171681, guid: cb8ac1e1dadf3d647af6e4b52a8df348, type: 3}
   - {fileID: 8336185952176959607, guid: 113ac05adb387b64eaf7560adb48a872, type: 3}
   nextLevel: 1
