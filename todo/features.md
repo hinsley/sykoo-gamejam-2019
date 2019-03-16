@@ -35,3 +35,4 @@
 - [ ] Hijack/Recover mechanic??
 - [ ] Ship warp drive mechanic
 - [ ] Cursor lock when player clicks in game
+- [ ] Stop timer on game over screen
