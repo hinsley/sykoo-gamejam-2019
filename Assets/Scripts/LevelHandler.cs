@@ -62,12 +62,19 @@ public class LevelHandler : MonoBehaviour
                 GameObject.Destroy(currentLevel);
             }
 
-            Debug.Log(levelPrefabs[nextLevel - 1].name);
-            currentLevel = Instantiate(
-                levelPrefabs[nextLevel++ - 1],
-                new Vector3(0, 5, 0),
-                new Quaternion(0, 0, 0, 1)
-            );
+            if (nextLevel <= levelPrefabs.Length)
+            {
+                Debug.Log(levelPrefabs[nextLevel - 1].name);
+                currentLevel = Instantiate(
+                    levelPrefabs[nextLevel++ - 1],
+                    new Vector3(0, 5, 0),
+                    new Quaternion(0, 0, 0, 1)
+                );
+            }
+            else
+            {
+                gameOverUI.SetActive(true);
+            }
             
             loadingLevel = false;
         }
