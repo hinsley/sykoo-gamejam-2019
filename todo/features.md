@@ -36,3 +36,4 @@
 - [ ] Ship warp drive mechanic
 - [ ] Cursor lock when player clicks in game
 - [ ] Stop timer on game over screen
+- [ ] Disable enemy sound effects on game over screen
